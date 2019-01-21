@@ -100,7 +100,6 @@ button:focus {
   max-width: 55px;
   height: auto;
   margin-right: 10px;
-  fill: "skyblue";
 }
 
 .icons__text {
@@ -207,5 +206,42 @@ button:focus {
   .btn {
     -ms-flex-item-align: center;
     align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: 80% auto;
+    background-position: 223% 0px;
+    height: 200vh;
+  }
+
+  .header {
+    background: url("../img/header/berry768.png") no-repeat;
+    background-position: 45% 60px;
+    background-size: 15% auto;
+    height: 200vh;
+    padding-left: 45px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+
+  .WrapperIcons {
+    margin-top: 23%;
+  }
+
+  .icons {
+    -ms-flex-preferred-size: 218px;
+    flex-basis: 218px;
+  }
+
+  .icons__text {
+    font-size: 14px;
   }
 }
