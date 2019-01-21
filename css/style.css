@@ -2,7 +2,6 @@ body {
   background: #fbebea url("../img/header/tort.png") no-repeat;
   background-size: 67% auto;
   background-position: 138% 15px;
-  height: 200vh;
 }
 
 .container {
@@ -39,7 +38,7 @@ button:focus {
   background: url("../img/header/berry.png") no-repeat;
   background-position: 35% 60px;
   background-size: 25% auto;
-  height: 200vh;
+  margin-bottom: 245px;
 }
 
 .headerWrapper {
