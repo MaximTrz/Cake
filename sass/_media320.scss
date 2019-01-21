@@ -1,0 +1,67 @@
+@media screen and (max-width: 320px){
+
+	body{
+
+		background-size: 550px auto;
+		background-position: center -380px;
+
+	}
+
+	.headerWrapper{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.title{
+		margin-top: 130px;
+		font-size: 40px;
+		font-family: "Playfair Display";
+		line-height: 0.8;
+		color: rgb(46, 40, 41);
+		font-weight: bold;
+		text-align: center;
+
+	}
+
+	.subtitle{
+		font-family: "Intro Script R";
+		text-align: center;
+		font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 3px;
+	}
+
+	.WrapperIcons{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 42px;
+		order: 0;
+		margin-top: 10px;
+	}
+
+	.icons{
+		flex-basis: 300px;
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		&__img{
+			height: 35px;
+			width: auto;
+			margin-right: 10px;
+		}
+		&__text{
+			font-size: 16px;
+			font-family: "Circe";
+			color: rgb(0, 0, 0);
+			line-height: 1.2;
+			text-align: left;
+		}
+	}
+
+	.btn{
+		align-self: center;
+	}
+
+}

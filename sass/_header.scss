@@ -1,0 +1,59 @@
+.header{
+	 background: url(../img/header/berry.png) no-repeat; 
+	 background-position: 35% 60px;
+	 background-size: 25% auto;
+	 height: 200vh;
+}
+
+.headerWrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.title{
+	margin-top: 125px;
+	font-size: 85px;
+	font-family: "Playfair Display";
+	line-height: 0.8;
+	color: rgb(46, 40, 41);
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.subtitle{
+	font-family: "Intro Script R";
+	text-align: left;
+	font-size: 45px;
+	margin-bottom: 60px;
+}
+
+.WrapperIcons{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 10%;
+	order: 1;
+}
+
+.icons{
+	flex-basis: 250px;
+	display: flex;
+	align-items: center;
+
+
+	&__img{
+		max-width: 55px;
+		height: auto;
+		margin-right: 10px;
+		fill:"skyblue";
+	}
+	&__text{
+		font-size: 16px;
+		font-family: "Circe";
+		color: rgb(0, 0, 0);
+		line-height: 1.2;
+		text-align: left;
+	}
+}
