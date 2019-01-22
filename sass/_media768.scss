@@ -3,14 +3,12 @@
 body{
 	background-size: 80% auto;
 	background-position: 223% 0px;
-	height: 200vh;
 }
 
 .header{
 	background: url(../img/header/berry768.png) no-repeat; 
 	background-position: 45% 60px;
 	background-size: 15% auto;
-	height: 200vh;
 	padding-left: 45px;
 }
 
@@ -28,6 +26,7 @@ body{
 
 .icons{
 	flex-basis: 218px;
+	margin-bottom: 15px;
 	&__text{
 		font-size: 14px;
 	}

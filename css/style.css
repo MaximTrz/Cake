@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 input,
 button:focus {
   outline: none;
@@ -136,14 +132,12 @@ button:focus {
   body {
     background-size: 80% auto;
     background-position: 223% 0px;
-    height: 200vh;
   }
 
   .header {
     background: url("../img/header/berry768.png") no-repeat;
     background-position: 45% 60px;
     background-size: 15% auto;
-    height: 200vh;
     padding-left: 45px;
   }
 
@@ -162,10 +156,95 @@ button:focus {
   .icons {
     -ms-flex-preferred-size: 218px;
     flex-basis: 218px;
+    margin-bottom: 15px;
   }
 
   .icons__text {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background-size: 550px auto;
+    background-position: center -380px;
+  }
+
+  .header {
+    background: none;
+    padding-left: 0;
+  }
+
+  .headerWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-top: 120px;
+    font-family: "Playfair Display";
+    line-height: 0.8;
+    color: #2e2829;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-family: "Intro Script R";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .WrapperIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 42px;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .icons {
+    -ms-flex-preferred-size: 300px;
+    flex-basis: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .icons__img {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .icons__text {
+    font-family: "Circe";
+    color: black;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .btn {
+    -ms-flex-item-align: center;
+    align-self: center;
   }
 }
 
