@@ -12,6 +12,11 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 input,
 button:focus {
   outline: none;
@@ -120,6 +125,93 @@ button:focus {
   align-self: flex-start;
   padding-left: 65px;
   padding-right: 65px;
+}
+
+.cakeWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.cakeWrapper .bigCake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 600px;
+  flex-basis: 600px;
+  margin-right: 20px;
+}
+
+.cakeWrapper .bigCake_second {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.cakeWrapper .smallCakes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 400px;
+  flex-basis: 400px;
+}
+
+.cake {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.cake_s {
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
+}
+
+.cake_s .cake__img {
+  max-width: 280px;
+  width: 80%;
+}
+
+.cake__img {
+  width: 70%;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -245,6 +337,51 @@ button:focus {
   .btn {
     -ms-flex-item-align: center;
     align-self: center;
+  }
+
+  .cakeWrapper .bigCake {
+    margin-right: 0;
+  }
+
+  .cakeWrapper .smallCakes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+  }
+
+  .cake {
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cake_s {
+    -ms-flex-preferred-size: 225px;
+    flex-basis: 225px;
+  }
+
+  .cake_s .cake__img {
+    width: 60%;
+  }
+
+  .cake__img {
+    width: 60%;
   }
 }
 
