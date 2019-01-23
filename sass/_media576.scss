@@ -70,6 +70,11 @@
 	}
 
 
+	.ourCake{
+		.title{
+			margin-bottom: 35px;
+		}
+	}
 
 .cakeWrapper{
 
@@ -91,20 +96,29 @@
 	background-color: #fff;
 	text-align: center;
 	margin-bottom: 20px;
+	max-height: 320px;
+	padding: 10px;
 }
 
 .cake_s{
-		flex-basis: 225px;
+		flex-basis: 235px;
 		.cake__img{
-		width: 60%;
+		width: 80%;
 	}
 }
 
 .cake__img{
 	width: 60%;
+	max-width: 170px;
 }
 
 
+
+.cake{
+		.view{
+		display: none;
+	}
+}
 
 
 }

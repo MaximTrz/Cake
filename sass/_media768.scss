@@ -33,4 +33,37 @@ body{
 }
 
 
+.ourCake{
+	.title{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+}
+
+.cakeWrapper{
+	margin-bottom: 0;
+}
+
+	.bigCake{
+			display: flex;
+			flex-grow: 1;
+			margin-right: 0;
+		}
+
+		.bigCake_second{
+				margin-right: 0;
+				margin-left: 0;
+		}
+
+.cake__img{
+	width: 30%;
+	max-width: 200px;
+}
+
+.cake{
+		.view{
+		display: none;
+	}
+}
+
 }

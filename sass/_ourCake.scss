@@ -1,7 +1,17 @@
+.ourCake{
+	.title{
+		font-size: 30px;
+		margin-bottom: 70px;
+	}
+}
+
+
 .cakeWrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 50px;
+}
 
 	.bigCake{
 			display: flex;
@@ -21,10 +31,10 @@
 		flex-grow: 1;
 		flex-basis: 400px;
 	}
-}
 
 .cake{
 	overflow: hidden;
+	box-shadow: 0px 10px 12.74px 0.26px rgba(163, 6, 60, 0.05);
 	flex-grow: 1;
 	background-color: #fff;
 	text-align: center;
@@ -32,18 +42,51 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom:  40px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+				.text{
+				text-align: left;
+				align-self: stretch;
+				font-family: "Circe";
+				&__title{
+					color: rgb(45, 40, 41);
+				}
+				&__subtitle{
+					font-family: "Circe";
+					color: rgba(45, 40, 41, 0.702);
+				}
+			}
+			.view{
+				display: flex;
+				align-self: stretch;
+				justify-content: flex-end;
+				align-items: center;
+				font-family: "Circe";
+				color: rgb(45, 40, 41);
+				font-size: 15px;
+				&__rightArrow{
+					margin-left: 10px;
+					width: 20px;
+				}
+			}
 }
 
 .cake_s{
-		flex-basis: 100px;
+		flex-basis: 300px;
 		.cake__img{
-			max-width: 280px;
+		max-width: 280px;
 		width: 80%;
+	}
+	.view__text{
+		display: none;
 	}
 }
 
 .cake__img{
-	width: 70%;
-	max-width: 360px;
+	width: 90%;
+	max-width: 500px;
 }
