@@ -14,7 +14,7 @@
 .title{
 	margin-top: 125px;
 	font-size: 85px;
-	font-family: "Playfair Display";
+	font-family: "Playfair Display", serif;
 	line-height: 0.8;
 	color: rgb(46, 40, 41);
 	font-weight: bold;
@@ -23,7 +23,7 @@
 }
 
 .subtitle{
-	font-family: "Intro Script R";
+	font-family: "Intro Script R" , serif;
 	text-align: left;
 	font-size: 45px;
 	margin-bottom: 60px;
@@ -50,7 +50,7 @@
 	}
 	&__text{
 		font-size: 16px;
-		font-family: "Circe";
+		font-family: "Circe" , serif;
 		color: rgb(0, 0, 0);
 		line-height: 1.2;
 		text-align: left;

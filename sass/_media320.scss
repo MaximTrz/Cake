@@ -7,6 +7,8 @@
 
 	}
 
+/**************HEADER **********************************/
+
 	.header{
 		background: none;
 	}
@@ -20,7 +22,6 @@
 	.title{
 		margin-top: 120px;
 		font-size: 45px;
-		font-family: "Playfair Display";
 		line-height: 0.8;
 		color: rgb(46, 40, 41);
 		font-weight: bold;
@@ -29,7 +30,6 @@
 	}
 
 	.subtitle{
-		font-family: "Intro Script R";
 		text-align: center;
 		font-size: 22px;
 		margin-top: 20px;
@@ -58,7 +58,6 @@
 		}
 		&__text{
 			font-size: 14px;
-			font-family: "Circe";
 			color: rgb(0, 0, 0);
 			line-height: 1.2;
 			text-align: left;
@@ -68,6 +67,8 @@
 	.btn{
 		align-self: center;
 	}
+
+/**************Our Cake**********************************/
 
 .cake{
 	overflow: hidden;
