@@ -8,7 +8,7 @@
 	display: inline-block;
 	float: left;
 	width: 100px;
-	margin-right: 15px;
+	margin-right: 20px;
 
 	&__number{
 		font-size: 35px;
@@ -33,7 +33,7 @@
 			flex-basis: 200px;
 			}
 		.description{
-				flex-basis: 500px;
+				flex-basis: 400px;
 				align-self: center;
 				&__title{
 					font-size: 16px;
@@ -56,6 +56,14 @@
 					margin-bottom: 50px;
 				}
 		}
+		.count{
+			align-self: flex-end;
+			font-family: "Circe", serif;
+			color: rgba(47, 47, 47, 0.702);
+			font-size: 12px;
+			text-align: left;
+
+		}
 	}
 	.prev{
 		background-color: red;
@@ -75,7 +83,7 @@
 		border: none;
 		top: 50%;
 		width: 25px;
-		left: 81%;
+		left: 94.2%;
 		height: 15px;
 		z-index: 100;		
 		background: url(../img/slider/arrowRight.png) no-repeat center;
