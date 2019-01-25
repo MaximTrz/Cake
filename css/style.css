@@ -21,6 +21,14 @@ button:focus {
   outline: none;
 }
 
+.floatReset {
+  float: none;
+}
+
+.slick-active {
+  outline: none;
+}
+
 @font-face {
   font-family: Intro Script R;
   src: url("../fonts/IntroScriptR-H2Base.otf") format("opentype");
@@ -277,6 +285,8 @@ button:focus {
 .textBlock {
   display: inline-block;
   float: left;
+  width: 100px;
+  margin-right: 15px;
 }
 
 .textBlock__number {
@@ -309,8 +319,8 @@ button:focus {
 }
 
 .fillingSlider .fillings .description {
-  -ms-flex-preferred-size: 400px;
-  flex-basis: 400px;
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px;
   -ms-flex-item-align: center;
   align-self: center;
 }
@@ -336,6 +346,29 @@ button:focus {
   color: #2f2f2f;
   font-weight: bold;
   margin-bottom: 50px;
+}
+
+.fillingSlider .prev {
+  background-color: red;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 25px;
+  height: 15px;
+  background: url("../img/slider/arrowLeft.png") no-repeat center;
+}
+
+.fillingSlider .next {
+  position: absolute;
+  background-color: red;
+  border: none;
+  top: 50%;
+  width: 25px;
+  left: 81%;
+  height: 15px;
+  z-index: 100;
+  background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
 @media screen and (max-width: 1280px) {

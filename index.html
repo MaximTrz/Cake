@@ -320,6 +320,11 @@
 				<!-- /.item -->
 		</div>
 		<!-- /.fillingSlider -->
+		
+		<div class="floatReset">
+			
+		</div>
+		<!-- /.floatReset -->
 
 	</div>
 	<!-- /.chooseFilling -->	
@@ -338,7 +343,10 @@
 	new WOW().init();
 </script>
 <script>
-	$('.fillingSlider').slick();
+	$('.fillingSlider').slick({
+		prevArrow: '<button class="prev"></button>',
+		nextArrow: '<button class="next"></button>'
+	});
 </script>
 </body>
 </html>
