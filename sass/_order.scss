@@ -17,7 +17,7 @@
 	}
 	&__subtitle{
 		font-size: 20px;
-		font-family: "Playfair Display",serif;
+		font-family: "Playfair Display", serif;
 		color: rgb(245, 0, 73);
 		font-weight: bold;
 	}
@@ -26,11 +26,34 @@
 .fillingSlider{
 	.fillings{
 		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 		&__img{
-			flex-basis: 300px;
+			flex-basis: 200px;
 			}
 		.description{
-				flex-basis: 100px;
+				flex-basis: 400px;
+				align-self: center;
+				&__title{
+					font-size: 16px;
+					font-family: "Circe", serif;
+					color: rgb(47, 47, 47);
+					font-weight: bold;
+				}
+				&__text{
+					font-size: 14px;
+					font-family: "Circe";
+					color: rgb(47, 47, 47);
+					width: 250px;
+					margin-bottom: 30px;
+				}
+				&__price{
+					font-size: 16px;
+					font-family: "Playfair Display", serif;
+					color: rgb(47, 47, 47);
+					font-weight: bold;
+					margin-bottom: 50px;
+				}
 		}
 	}
 }
