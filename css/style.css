@@ -267,80 +267,46 @@ button:focus {
   max-width: 500px;
 }
 
-.filling {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+.chooseBlock {
   background-color: #fff;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  -webkit-box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+  box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+  padding: 75px 75px 50px 75px;
 }
 
-.text {
-  -ms-flex-preferred-size: 50px;
-  flex-basis: 50px;
+.textBlock {
+  display: inline-block;
+  float: left;
 }
 
-.number {
-  font-size: 40px;
+.textBlock__number {
+  font-size: 35px;
   font-family: "Playfair Display", serif;
   color: #f50049;
   font-weight: bold;
 }
 
-.text__text {
+.textBlock__subtitle {
   font-size: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display",serif;
   color: #f50049;
   font-weight: bold;
 }
 
-.fillingsWrapper {
-  -ms-flex-preferred-size: 850px;
-  flex-basis: 850px;
+.fillingSlider .fillings {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
 }
 
-.fillings__img {
-  -ms-flex-preferred-size: 330px;
-  flex-basis: 330px;
+.fillingSlider .fillings__img {
+  -ms-flex-preferred-size: 300px;
+  flex-basis: 300px;
 }
 
-.fillings {
-  -ms-flex-preferred-size: 400px;
-  flex-basis: 400px;
-  font-family: "Circe", serif;
-}
-
-.fillings__title {
-  margin-top: 70px;
-  font-size: 15px;
-  color: #2f2f2f;
-  font-weight: bold;
-}
-
-.fillings__text {
-  font-size: 14px;
-  font-family: "Circe";
-  color: #2f2f2f;
-  line-height: 1.333;
-  margin-bottom: 30px;
-  width: 300px;
-}
-
-.fillings__price {
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
-  color: #2f2f2f;
-  font-weight: bold;
-  margin-bottom: 50px;
+.fillingSlider .fillings .description {
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
 }
 
 @media screen and (max-width: 1280px) {
