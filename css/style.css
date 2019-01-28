@@ -134,6 +134,11 @@ button:focus {
   padding-right: 65px;
 }
 
+.btn_s {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .ourCake .title {
   font-size: 30px;
   margin-bottom: 70px;
@@ -314,8 +319,8 @@ button:focus {
 }
 
 .fillingSlider .fillings__img {
-  -ms-flex-preferred-size: 200px;
-  flex-basis: 200px;
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
 }
 
 .fillingSlider .fillings .description {
@@ -456,6 +461,54 @@ button:focus {
 
   .cake .view {
     display: none;
+  }
+
+  /*****************************************************/
+
+  /*****************ChoseFilling**********************/
+
+  .chooseBlock {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+    box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+    padding: 50px 40px 50px 40px;
+  }
+
+  .textBlock {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+  }
+
+  .fillingSlider .fillings {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .fillingSlider .fillings__img {
+    width: 215px;
+    height: 237px;
+  }
+
+  .fillingSlider .fillings .description {
+    -ms-flex-preferred-size: 100px;
+    flex-basis: 100px;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .fillingSlider .fillings .description__text {
+    margin-bottom: 20px;
+  }
+
+  .fillingSlider .fillings .description__price {
+    margin-bottom: 30px;
   }
 
   /*****************************************************/
@@ -605,6 +658,122 @@ button:focus {
   }
 
   /***************************************************/
+
+  /*****************ChoseFilling**********************/
+
+  .chooseBlock {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+    box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+    padding: 50px 40px 50px 40px;
+  }
+
+  .textBlock {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .fillingSlider .fillings {
+    display: block;
+  }
+
+  .fillingSlider .fillings .imgBox {
+    max-height: 150px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  .fillingSlider .fillings__img {
+    position: relative;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    width: 100%;
+    height: 300px;
+  }
+
+  .fillingSlider .fillings .description {
+    text-align: center;
+  }
+
+  .fillingSlider .fillings .description__title {
+    text-align: left;
+  }
+
+  .fillingSlider .fillings .description__text {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .fillingSlider .fillings .description__price {
+    margin-bottom: 30px;
+  }
+
+  .fillingSlider .fillings .count {
+    display: none;
+  }
+
+  .fillingSlider .my-dots {
+    position: absolute;
+    bottom: 51%;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .fillingSlider .my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .fillingSlider .my-dots li button {
+    display: block;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    background-color: #f61054;
+    border-radius: 50%;
+    border: 3px solid #f61054;
+    outline: none;
+  }
+
+  .fillingSlider .my-dots li button:hover,
+  .fillingSlider .my-dots li button:focus {
+    outline: none;
+  }
+
+  .fillingSlider .my-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    content: url("");
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    color: black;
+  }
+
+  .fillingSlider .my-dots li.slick-active button:before {
+    opacity: .01;
+    color: #f61054;
+  }
+
+  /*****************************************************/
 }
 
 @media screen and (max-width: 320px) {

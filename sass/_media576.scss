@@ -122,6 +122,114 @@
 
 /***************************************************/
 
+/*****************ChoseFilling**********************/
 
+.chooseBlock{
+	background-color: #fff;
+	box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
+	padding: 50px 40px 50px 40px;
+}
+
+.textBlock{
+	display: block;
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.fillingSlider{
+	.fillings{
+		display: block;
+		.imgBox{
+			max-height: 150px;
+			overflow: hidden;
+			margin-bottom: 40px;
+		}
+		&__img{
+			position: relative;
+			transform: translateY(-30px);
+			width: 100%;
+			height: 300px;
+			}
+		.description{
+				text-align: center;
+				&__title{
+					text-align: left;
+				}
+				&__text{
+					margin-bottom: 20px;
+					width: 100%;
+					text-align: left;
+				}
+				&__price{
+					margin-bottom: 30px;
+				}
+		}
+		.count{
+			display: none;
+		}
+
+	}
+
+.my-dots {
+  position: absolute;
+  bottom: 51%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  display: block;
+  width: 5px;
+  height: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  background-color: #f61054;
+  border-radius: 50%;
+  border: 3px solid #f61054;
+  outline: none;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  content: url('');
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+  color: black;
+ }
+
+.my-dots li.slick-active button:before {
+  opacity: .01;
+  color: #f61054;
+}
+
+}
+
+/*****************************************************/
 
 }
