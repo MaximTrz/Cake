@@ -140,6 +140,7 @@
 .fillingSlider{
 	.fillings{
 		display: block;
+		position: relative;
 		.imgBox{
 			max-height: 150px;
 			overflow: hidden;
@@ -166,14 +167,19 @@
 				}
 		}
 		.count{
-			display: none;
+			position: absolute;
+			color: white;
+			top: 125px;
+			left: -50px;
+			z-index: 100;
+
 		}
 
 	}
 
 .my-dots {
   position: absolute;
-  bottom: 51%;
+  top: 150px;
   display: block;
   width: 100%;
   padding: 0;
@@ -212,13 +218,14 @@
   font-size: 6px;
   line-height: 20px;
   position: absolute;
-  top: 0px;
+  top: -0px;
   left: 0px;
   width: 16px;
   height: 16px;
   content: url('');
   border-radius: 50%;
   background-color: gray;
+  border: 2px solid grey;
   text-align: center;
   color: black;
  }
