@@ -89,12 +89,19 @@ body{
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
+		
+		.imgBox{
+			flex-basis: 200px;
+			overflow: hidden;
+		}
+
 		&__img{
-			width: 215px;
+				width: 215px;
 			height: 237px;
-			}
+		}
 		.description{
-				flex-basis: 100px;
+			margin-left: 10px;
+				flex-basis: 80px;
 				align-self: center;
 				&__text{
 					margin-bottom: 20px;
