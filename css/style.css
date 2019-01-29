@@ -399,13 +399,35 @@ button:focus {
   background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
-.sizeSlider .sizing {
+.sizeSlider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
-.sizeSlider .sizing .item .MainSizeRing {
+.sizeSlider .item {
+  -ms-flex-preferred-size: 200px;
+  flex-basis: 200px;
+}
+
+.sizeSlider .item .text {
+  margin-top: 30px;
+  font-family: "Circe";
+  color: rgba(47, 47, 47, 0.8);
+  line-height: 1.667;
+  text-align: left;
+}
+
+.sizeSlider .item .MainSizeRing {
   border-radius: 50%;
   border: 4px dotted black;
   height: 200px;
@@ -421,7 +443,55 @@ button:focus {
   align-items: center;
 }
 
-.sizeSlider .sizing .item .sizeRing {
+.sizeSlider .item .MainSizeRing_middle {
+  border-radius: 50%;
+  border: 4px dotted black;
+  height: 175px;
+  width: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sizeSlider .item .MainSizeRing_middleS {
+  border-radius: 50%;
+  border: 4px dotted black;
+  height: 150px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sizeSlider .item .MainSizeRing_small {
+  border-radius: 50%;
+  border: 4px dotted black;
+  height: 105px;
+  width: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sizeSlider .item .sizeRing {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,8 +503,8 @@ button:focus {
   align-items: center;
   border-radius: 50%;
   border: 4px dotted black;
-  height: 80%;
-  width: 80%;
+  height: 70%;
+  width: 70%;
 }
 
 @media screen and (max-width: 1280px) {
