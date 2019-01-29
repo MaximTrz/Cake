@@ -428,6 +428,8 @@ button:focus {
 }
 
 .sizeSlider .item .MainSizeRing {
+  font-size: 10px;
+  font-family: "Circe", serif;
   border-radius: 50%;
   border: 4px dotted black;
   height: 200px;
@@ -492,6 +494,7 @@ button:focus {
 }
 
 .sizeSlider .item .sizeRing {
+  color: #2f2f2f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

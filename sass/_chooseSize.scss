@@ -16,6 +16,8 @@
 				}
 
 				.MainSizeRing{
+					font-size: 10px;
+					font-family: "Circe", serif;
 					border-radius: 50%;
 					border: 4px dotted black;
 					height: 200px;
@@ -52,6 +54,7 @@
 					align-items: center;
 				}
 				.sizeRing{
+					color: rgb(47, 47, 47);
 					display: flex;
 					justify-content: center;
 					align-items: center;
