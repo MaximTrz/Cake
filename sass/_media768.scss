@@ -72,10 +72,10 @@ body{
 	.fillings{
 		display: flex;
 		justify-content: space-around;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		
 		.imgBox{
-			flex-basis: 200px;
+			flex-basis: 300px;
 			overflow: hidden;
 		}
 

@@ -322,12 +322,13 @@ button:focus {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .fillingSlider .fillings .imgBox {
   overflow: hidden;
+  margin-right: 15px;
 }
 
 .fillingSlider .fillings__img {
@@ -481,13 +482,13 @@ button:focus {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .fillingSlider .fillings .imgBox {
-    -ms-flex-preferred-size: 200px;
-    flex-basis: 200px;
+    -ms-flex-preferred-size: 300px;
+    flex-basis: 300px;
     overflow: hidden;
   }
 

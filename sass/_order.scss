@@ -42,11 +42,12 @@
 	.fillings{
 		display: flex;
 		justify-content: space-around;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 
 		.imgBox{
 
 			overflow: hidden;
+			margin-right: 15px;
 
 		}
 		&__img{
