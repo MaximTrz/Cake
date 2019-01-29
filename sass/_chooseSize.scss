@@ -1,0 +1,27 @@
+.sizeSlider{
+	.sizing{
+		display: flex;
+			.item{
+				.MainSizeRing{
+					border-radius: 50%;
+					border: 4px dotted black;
+					height: 200px;
+					width: 200px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.sizeRing{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-radius: 50%;
+					border: 4px dotted black;
+					height: 70%;
+					width: 70%;
+
+				}
+		}
+	}
+
+}
