@@ -148,8 +148,8 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -163,8 +163,6 @@ button:focus {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  -ms-flex-preferred-size: 600px;
-  flex-basis: 600px;
   margin-right: 20px;
 }
 
@@ -190,8 +188,6 @@ button:focus {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  -ms-flex-preferred-size: 400px;
-  flex-basis: 400px;
 }
 
 .cake {
@@ -451,32 +447,14 @@ button:focus {
     margin-bottom: 40px;
   }
 
-  .cakeWrapper {
-    margin-bottom: 0;
+  .cake_s {
+    -ms-flex-preferred-size: 100px;
+    flex-basis: 100px;
   }
 
-  .bigCake {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    margin-right: 0;
-  }
-
-  .bigCake_second {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .cake__img {
-    width: 30%;
-    max-width: 200px;
-  }
-
-  .cake .view {
-    display: none;
+  .cake_s .cake__img {
+    max-width: 280px;
+    width: 80%;
   }
 
   /*****************************************************/
@@ -785,14 +763,14 @@ button:focus {
     font-size: 6px;
     line-height: 20px;
     position: absolute;
-    top: -1px;
-    left: -0.5px;
-    width: 18px;
-    height: 18px;
+    top: -2px;
+    left: -1px;
+    width: 20px;
+    height: 20px;
     content: url("");
     border-radius: 50%;
     background-color: #dddddd;
-    border: 2px solid #dddddd;
+    border: 5px solid white;
     text-align: center;
   }
 

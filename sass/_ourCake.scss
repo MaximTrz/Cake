@@ -8,7 +8,7 @@
 
 .cakeWrapper{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
 	margin-bottom: 50px;
 }
@@ -16,7 +16,6 @@
 	.bigCake{
 			display: flex;
 			flex-grow: 1;
-			flex-basis: 600px;
 			margin-right: 20px;
 		}
 		.bigCake_second{
@@ -29,7 +28,6 @@
 		flex-direction: column;
 		justify-content: space-between;
 		flex-grow: 1;
-		flex-basis: 400px;
 	}
 
 .cake{

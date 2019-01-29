@@ -41,31 +41,15 @@ body{
 	}
 }
 
-.cakeWrapper{
-	margin-bottom: 0;
-}
-
-	.bigCake{
-			display: flex;
-			flex-grow: 1;
-			margin-right: 0;
-		}
-
-		.bigCake_second{
-				margin-right: 0;
-				margin-left: 0;
-		}
-
-.cake__img{
-	width: 30%;
-	max-width: 200px;
-}
-
-.cake{
-		.view{
-		display: none;
+.cake_s{
+		flex-basis: 100px;
+		.cake__img{
+		max-width: 280px;
+		width: 80%;
 	}
 }
+
+
 /*****************************************************/
 
 
