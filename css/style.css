@@ -606,8 +606,14 @@ button:focus {
     margin-bottom: 35px;
   }
 
+  .cakeWrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
   .cakeWrapper .bigCake {
-    margin-right: 0;
+    margin: 0;
   }
 
   .cakeWrapper .smallCakes {
@@ -881,8 +887,8 @@ button:focus {
   }
 
   .cake_s {
-    -ms-flex-preferred-size: 180px;
-    flex-basis: 180px;
+    -ms-flex-preferred-size: 150px;
+    flex-basis: 150px;
   }
 
   .cake_s .cake__img {
