@@ -1,21 +1,47 @@
 .sizeSlider{
-	display: flex;
-	align-items: flex-end;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-
-			.item{
-				flex-basis: 200px;
+	
+		.itemBox{
 				
+				&__item{
+					height: 300px;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+				}
+				
+							
 				.text{
 					margin-top: 30px;
 					font-family: "Circe";
 					color: rgba(47, 47, 47, 0.8);
 					line-height: 1.667;
 					text-align: left;
+					margin-left: auto;
+					margin-right: auto;
+					.personCount{
+						display: block;
+					}
+				}
+
+				.text_big{
+					width: 200px;
+				}
+
+				.text_middle{
+					width: 175px;
+				}
+
+				.text_middleS{
+					width: 150px;
+				}
+
+				.text_small{
+					width: 115px;
 				}
 
 				.MainSizeRing{
+					margin-left: auto;
+					margin-right: auto;
 					font-size: 10px;
 					font-family: "Circe", serif;
 					border-radius: 50%;
@@ -27,31 +53,16 @@
 					align-items: center;
 				}
 				.MainSizeRing_middle{
-					border-radius: 50%;
-					border: 4px dotted black;
 					height: 175px;
 					width: 175px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
 				}
 				.MainSizeRing_middleS{
-					border-radius: 50%;
-					border: 4px dotted black;
 					height: 150px;
 					width: 150px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
 				}
 				.MainSizeRing_small{
-					border-radius: 50%;
-					border: 4px dotted black;
 					height: 105px;
 					width: 105px;
-					display: flex;
-					justify-content: center;
-					align-items: center;
 				}
 				.sizeRing{
 					color: rgb(47, 47, 47);

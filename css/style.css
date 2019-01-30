@@ -399,35 +399,53 @@ button:focus {
   background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
-.sizeSlider {
+.sizeSlider .itemBox__item {
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
-.sizeSlider .item {
-  -ms-flex-preferred-size: 200px;
-  flex-basis: 200px;
-}
-
-.sizeSlider .item .text {
+.sizeSlider .itemBox .text {
   margin-top: 30px;
   font-family: "Circe";
   color: rgba(47, 47, 47, 0.8);
   line-height: 1.667;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sizeSlider .item .MainSizeRing {
+.sizeSlider .itemBox .text .personCount {
+  display: block;
+}
+
+.sizeSlider .itemBox .text_big {
+  width: 200px;
+}
+
+.sizeSlider .itemBox .text_middle {
+  width: 175px;
+}
+
+.sizeSlider .itemBox .text_middleS {
+  width: 150px;
+}
+
+.sizeSlider .itemBox .text_small {
+  width: 115px;
+}
+
+.sizeSlider .itemBox .MainSizeRing {
+  margin-left: auto;
+  margin-right: auto;
   font-size: 10px;
   font-family: "Circe", serif;
   border-radius: 50%;
@@ -445,55 +463,22 @@ button:focus {
   align-items: center;
 }
 
-.sizeSlider .item .MainSizeRing_middle {
-  border-radius: 50%;
-  border: 4px dotted black;
+.sizeSlider .itemBox .MainSizeRing_middle {
   height: 175px;
   width: 175px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
-.sizeSlider .item .MainSizeRing_middleS {
-  border-radius: 50%;
-  border: 4px dotted black;
+.sizeSlider .itemBox .MainSizeRing_middleS {
   height: 150px;
   width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
-.sizeSlider .item .MainSizeRing_small {
-  border-radius: 50%;
-  border: 4px dotted black;
+.sizeSlider .itemBox .MainSizeRing_small {
   height: 105px;
   width: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
-.sizeSlider .item .sizeRing {
+.sizeSlider .itemBox .sizeRing {
   color: #2f2f2f;
   display: -webkit-box;
   display: -ms-flexbox;
