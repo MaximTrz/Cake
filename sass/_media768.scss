@@ -102,5 +102,71 @@ body{
 
 /*****************************************************/
 
+/***************ChooseSize**************************/
+
+.chooseSize{
+	.textBlock{
+		margin-right: -100px;
+	}
+}
+
+.sizeSlider{
+
+
+		.itemBox{
+				
+				&__item{
+
+				}
+				
+							
+				.text{
+					.personCount{
+						display: block;
+					}
+				}
+
+				.text_big{
+					width: 140px;
+				}
+
+				.text_middle{
+					width: 120px;
+				}
+
+				.text_middleS{
+					width: 100px;
+				}
+
+				.text_small{
+					width: 75px;
+				}
+
+				.MainSizeRing{
+					height: 140px;
+					width: 140px;
+				}
+				.MainSizeRing_middle{
+					height: 120px;
+					width: 120px;
+				}
+				.MainSizeRing_middleS{
+					height: 100px;
+					width: 100px;
+				}
+				.MainSizeRing_small{
+					height: 75px;
+					width: 75px;
+				}
+
+		}
+
+
+
+}
+
+/****************************************************************/
+
+
 }
 

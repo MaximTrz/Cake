@@ -634,6 +634,54 @@ button:focus {
   }
 
   /*****************************************************/
+
+  /***************ChooseSize**************************/
+
+  .chooseSize .textBlock {
+    margin-right: -100px;
+  }
+
+  .sizeSlider .itemBox .text .personCount {
+    display: block;
+  }
+
+  .sizeSlider .itemBox .text_big {
+    width: 140px;
+  }
+
+  .sizeSlider .itemBox .text_middle {
+    width: 120px;
+  }
+
+  .sizeSlider .itemBox .text_middleS {
+    width: 100px;
+  }
+
+  .sizeSlider .itemBox .text_small {
+    width: 75px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing {
+    height: 140px;
+    width: 140px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middle {
+    height: 120px;
+    width: 120px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middleS {
+    height: 100px;
+    width: 100px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_small {
+    height: 75px;
+    width: 75px;
+  }
+
+  /****************************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -790,6 +838,19 @@ button:focus {
 
   /*****************ChoseFilling**********************/
 
+  .chooseBlock .textBlock {
+    display: block;
+    float: none;
+  }
+
+  .chooseBlock .textBlock__number {
+    display: inline;
+  }
+
+  .chooseBlock .textBlock__subtitle {
+    display: inline;
+  }
+
   .chooseBlock {
     background-color: #fff;
     -webkit-box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
@@ -907,6 +968,73 @@ button:focus {
   }
 
   /*****************************************************/
+
+  /***************ChooseSize**************************/
+
+  .sizeSlider .itemBox .text .personCount {
+    display: block;
+  }
+
+  .sizeSlider .itemBox .text_big {
+    width: 140px;
+  }
+
+  .sizeSlider .itemBox .text_middle {
+    width: 120px;
+  }
+
+  .sizeSlider .itemBox .text_middleS {
+    width: 100px;
+  }
+
+  .sizeSlider .itemBox .text_small {
+    width: 75px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing {
+    height: 140px;
+    width: 140px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middle {
+    height: 120px;
+    width: 120px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middleS {
+    height: 100px;
+    width: 100px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_small {
+    height: 75px;
+    width: 75px;
+  }
+
+  .sizeSlider .prev {
+    background-color: red;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 25px;
+    height: 15px;
+    background: url("../img/slider/arrowLeft.png") no-repeat center;
+  }
+
+  .sizeSlider .next {
+    position: absolute;
+    background-color: red;
+    border: none;
+    top: 50%;
+    width: 25px;
+    left: 99.2%;
+    height: 15px;
+    z-index: 100;
+    background: url("../img/slider/arrowRight.png") no-repeat center;
+  }
+
+  /****************************************************************/
 }
 
 @media screen and (max-width: 320px) {
