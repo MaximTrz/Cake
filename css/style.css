@@ -495,6 +495,29 @@ button:focus {
   width: 70%;
 }
 
+.sizeSlider .prev {
+  background-color: red;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 25px;
+  height: 15px;
+  background: url("../img/slider/arrowLeft.png") no-repeat center;
+}
+
+.sizeSlider .next {
+  position: absolute;
+  background-color: red;
+  border: none;
+  top: 50%;
+  width: 25px;
+  left: 99.2%;
+  height: 15px;
+  z-index: 100;
+  background: url("../img/slider/arrowRight.png") no-repeat center;
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     padding-left: 75px;
