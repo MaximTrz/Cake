@@ -156,10 +156,13 @@
 	.fillings{
 		display: block;
 		position: relative;
+
 		.imgBox{
+			text-align: center;
 			max-height: 150px;
 			overflow: hidden;
 			margin-bottom: 40px;
+			width: 100%;
 		}
 		&__img{
 			position: relative;
@@ -263,7 +266,7 @@
 		.itemBox{
 				
 				&__item{
-
+					height: 250px;
 				}
 				
 							
@@ -274,15 +277,15 @@
 				}
 
 				.text_big{
-					width: 140px;
-				}
-
-				.text_middle{
 					width: 120px;
 				}
 
+				.text_middle{
+					width: 110px;
+				}
+
 				.text_middleS{
-					width: 100px;
+					width: 90px;
 				}
 
 				.text_small{
@@ -290,16 +293,16 @@
 				}
 
 				.MainSizeRing{
-					height: 140px;
-					width: 140px;
-				}
-				.MainSizeRing_middle{
 					height: 120px;
 					width: 120px;
 				}
+				.MainSizeRing_middle{
+					height: 110px;
+					width: 110px;
+				}
 				.MainSizeRing_middleS{
-					height: 100px;
-					width: 100px;
+					height: 90px;
+					width: 90px;
 				}
 				.MainSizeRing_small{
 					height: 75px;

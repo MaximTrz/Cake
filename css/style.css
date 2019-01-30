@@ -871,9 +871,11 @@ button:focus {
   }
 
   .fillingSlider .fillings .imgBox {
+    text-align: center;
     max-height: 150px;
     overflow: hidden;
     margin-bottom: 40px;
+    width: 100%;
   }
 
   .fillingSlider .fillings__img {
@@ -971,20 +973,24 @@ button:focus {
 
   /***************ChooseSize**************************/
 
+  .sizeSlider .itemBox__item {
+    height: 250px;
+  }
+
   .sizeSlider .itemBox .text .personCount {
     display: block;
   }
 
   .sizeSlider .itemBox .text_big {
-    width: 140px;
-  }
-
-  .sizeSlider .itemBox .text_middle {
     width: 120px;
   }
 
+  .sizeSlider .itemBox .text_middle {
+    width: 110px;
+  }
+
   .sizeSlider .itemBox .text_middleS {
-    width: 100px;
+    width: 90px;
   }
 
   .sizeSlider .itemBox .text_small {
@@ -992,18 +998,18 @@ button:focus {
   }
 
   .sizeSlider .itemBox .MainSizeRing {
-    height: 140px;
-    width: 140px;
-  }
-
-  .sizeSlider .itemBox .MainSizeRing_middle {
     height: 120px;
     width: 120px;
   }
 
+  .sizeSlider .itemBox .MainSizeRing_middle {
+    height: 110px;
+    width: 110px;
+  }
+
   .sizeSlider .itemBox .MainSizeRing_middleS {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
   .sizeSlider .itemBox .MainSizeRing_small {
