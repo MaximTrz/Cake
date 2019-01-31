@@ -126,10 +126,13 @@
 /*****************ChoseFilling**********************/
 
 
-.chooseBlock{
+
 	.textBlock{
 			display: block;
 			float: none;
+			width: 100%;
+			margin-bottom: 20px;	
+			padding: 50px 40px 50px 40px;
 			&__number{
 				display: inline;
 			}
@@ -137,20 +140,7 @@
 				display: inline;
 			}
 		}
-	}
 
-.chooseBlock{
-	background-color: #fff;
-	box-shadow: 0px 5px 12.74px 0.26px rgba(163, 6, 60, 0.1);
-	padding: 50px 40px 50px 40px;
-}
-
-.textBlock{
-	display: block;
-	float: none;
-	width: 100%;
-	margin-bottom: 20px;
-}
 
 .fillingSlider{
 	.fillings{
