@@ -139,6 +139,66 @@ button:focus {
   box-shadow: none;
 }
 
+.btn_size {
+  display: none;
+}
+
+.my-dots {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  display: block;
+  width: 5px;
+  height: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  background-color: #f61054;
+  border-radius: 50%;
+  border: 3px solid #f61054;
+  outline: none;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -1px;
+  width: 20px;
+  height: 20px;
+  content: url("");
+  border-radius: 50%;
+  background-color: #dddddd;
+  border: 5px solid white;
+  text-align: center;
+}
+
+.my-dots li.slick-active button:before {
+  opacity: 0;
+}
+
 .ourCake .title {
   font-size: 30px;
   margin-bottom: 70px;
@@ -913,68 +973,21 @@ button:focus {
   }
 
   .fillingSlider .my-dots {
-    position: absolute;
     top: 150px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-
-  .fillingSlider .my-dots li {
-    position: relative;
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    margin: 0 10px;
-    padding: 0;
-    cursor: pointer;
-  }
-
-  .fillingSlider .my-dots li button {
-    display: block;
-    width: 5px;
-    height: 5px;
-    padding: 5px;
-    cursor: pointer;
-    color: transparent;
-    background-color: #f61054;
-    border-radius: 50%;
-    border: 3px solid #f61054;
-    outline: none;
-  }
-
-  .fillingSlider .my-dots li button:hover,
-  .fillingSlider .my-dots li button:focus {
-    outline: none;
-  }
-
-  .fillingSlider .my-dots li button:before {
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: -2px;
-    left: -1px;
-    width: 20px;
-    height: 20px;
-    content: url("");
-    border-radius: 50%;
-    background-color: #dddddd;
-    border: 5px solid white;
-    text-align: center;
-  }
-
-  .fillingSlider .my-dots li.slick-active button:before {
-    opacity: 0;
   }
 
   /*****************************************************/
 
   /***************ChooseSize**************************/
 
+  .chooseBlock {
+    padding: 15px 20px 15px 20px;
+  }
+
   .sizeSlider .itemBox__item {
     height: 250px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
   }
 
   .sizeSlider .itemBox .text .personCount {
@@ -1038,6 +1051,10 @@ button:focus {
     height: 15px;
     z-index: 100;
     background: url("../img/slider/arrowRight.png") no-repeat center;
+  }
+
+  .sizeSlider .my-dots {
+    top: 115px;
   }
 
   /****************************************************************/
@@ -1155,4 +1172,69 @@ button:focus {
     width: 40%;
     max-width: 500px;
   }
+
+  /************************ChooseSize****************/
+
+  .order .title {
+    margin-top: 50px;
+  }
+
+  .sizeSlider .itemBox__item {
+    height: 350px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .sizeSlider .itemBox .text {
+    text-align: center;
+  }
+
+  .sizeSlider .itemBox .text_big {
+    width: 100%;
+  }
+
+  .sizeSlider .itemBox .text_middle {
+    width: 100%;
+  }
+
+  .sizeSlider .itemBox .text_middleS {
+    width: 100%;
+  }
+
+  .sizeSlider .itemBox .text_small {
+    width: 100%;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing {
+    height: 165px;
+    width: 165px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middle {
+    height: 140px;
+    width: 140px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_middleS {
+    height: 120px;
+    width: 120px;
+  }
+
+  .sizeSlider .itemBox .MainSizeRing_small {
+    height: 100px;
+    width: 100px;
+  }
+
+  .sizeSlider .my-dots {
+    top: 155px;
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  .btn_size {
+    display: block;
+  }
+
+  /*************************************************/
 }

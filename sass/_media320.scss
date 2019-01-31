@@ -93,4 +93,78 @@
 }
 
 
+/************************ChooseSize****************/
+
+.order{
+	.title{
+		margin-top: 50px;
+	}
+}
+
+.sizeSlider{
+
+			.itemBox{
+				
+				&__item{
+					height: 350px;
+					justify-content: space-between;	
+				}
+				
+							
+				.text{
+					text-align: center;
+				}
+
+				.text_big{
+					width: 100%;
+				}
+
+				.text_middle{
+					width: 100%;
+				}
+
+				.text_middleS{
+					width: 100%;
+				}
+
+				.text_small{
+					width: 100%;
+				}
+
+				.MainSizeRing{
+
+					height: 165px;
+					width: 165px;
+
+				}
+				.MainSizeRing_middle{
+					height: 140px;
+					width: 140px;
+				}
+				.MainSizeRing_middleS{
+					height: 120px;
+					width: 120px;
+				}
+				.MainSizeRing_small{
+					height: 100px;
+					width: 100px;
+				}
+				.sizeRing{
+
+				}
+		}
+
+.my-dots {
+top: 155px;
+transform: translateX(-10px);
+}
+
+}
+
+.btn_size{
+	display: block;
+}
+
+/*************************************************/
+
 }

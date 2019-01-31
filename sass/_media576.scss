@@ -196,61 +196,9 @@
 	}
 
 .my-dots {
-  position: absolute;
-  top: 150px;
-  display: block;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-.my-dots li {
-  position: relative;
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  margin: 0 10px;
-  padding: 0;
-  cursor: pointer;
+top: 150px;
 }
 
-.my-dots li button {
-  display: block;
-  width: 5px;
-  height: 5px;
-  padding: 5px;
-  cursor: pointer;
-  color: transparent;
-  background-color: #f61054;
-  border-radius: 50%;
-  border: 3px solid #f61054;
-  outline: none;
-}
-
-.my-dots li button:hover,
-.my-dots li button:focus {
-  outline: none;
-}
-
-.my-dots li button:before {
-  font-size: 6px;
-  line-height: 20px;
-  position: absolute;
-  top: -2px;
-  left: -1px;
-  width: 20px;
-  height: 20px;
-  content: url('');
-  border-radius: 50%;
-  background-color: #dddddd;
-  border: 5px solid white;
-  text-align: center;
-
- }
-
-.my-dots li.slick-active button:before {
-  opacity: 0;
-}
 
 }
 
@@ -259,6 +207,9 @@
 
 /***************ChooseSize**************************/
 
+.chooseBlock{
+	padding: 15px 20px 15px 20px;
+}
 
 .sizeSlider{
 
@@ -267,6 +218,7 @@
 				
 				&__item{
 					height: 250px;
+					justify-content: space-around;
 				}
 				
 							
@@ -333,7 +285,11 @@
 			height: 15px;
 			z-index: 100;		
 			background: url(../img/slider/arrowRight.png) no-repeat center;
-		}	
+		}
+
+.my-dots {
+top: 115px;
+}
 
 }
 
