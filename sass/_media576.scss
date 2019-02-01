@@ -132,7 +132,7 @@
 			float: none;
 			width: 100%;
 			margin-bottom: 20px;	
-			padding: 50px 40px 50px 40px;
+			
 			&__number{
 				display: inline;
 			}
@@ -285,6 +285,33 @@ top: 115px;
 
 /****************************************************************/
 
+/**************************ChooseDecor**************************/
+.chooseBlock_Decor{
+	.btn_decor{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;		
+	}
+	.cakeBgc{
+	display: none;
+	}
+	.itemBox__item{
+			.imageBox{
+				.decorImg{
+				width: 80%;
+			}
+		}
+	}
 
+.decorText{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	.my-dots {
+	bottom: 120px;
+	}
+}
+
+/************************************************************************/
 
 }

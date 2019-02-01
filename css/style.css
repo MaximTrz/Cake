@@ -199,6 +199,24 @@ button:focus {
   opacity: 0;
 }
 
+.prev {
+  border: none;
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  background: url("../img/slider/arrowLeft.png") no-repeat center;
+}
+
+.next {
+  position: absolute;
+  background-color: red;
+  border: none;
+  width: 25px;
+  height: 15px;
+  z-index: 100;
+  background: url("../img/slider/arrowRight.png") no-repeat center;
+}
+
 .ourCake .title {
   font-size: 30px;
   margin-bottom: 70px;
@@ -578,6 +596,53 @@ button:focus {
   background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
+.chooseBlock_Decor .btn_decor {
+  display: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.chooseBlock_Decor .cakeBgc {
+  height: 300px;
+  width: 120%;
+  background: url("../img/decor/bgc.png") no-repeat center;
+  background-size: 120% auto;
+}
+
+.chooseBlock_Decor .prev {
+  top: 50%;
+  left: 15%;
+}
+
+.chooseBlock_Decor .next {
+  top: 50%;
+  left: 94%;
+}
+
+.chooseBlock_Decor .itemBox__item .imageBox .decorImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: auto;
+}
+
+.chooseBlock_Decor .decorText {
+  margin-top: -25%;
+  text-align: center;
+}
+
+.chooseBlock_Decor .decorText__name {
+  font-family: "Circe";
+  color: #2f2f2f;
+  line-height: 1.5;
+}
+
+.chooseBlock_Decor .decorText__price {
+  font-family: "Playfair Display";
+  color: #2f2f2f;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     padding-left: 75px;
@@ -903,7 +968,6 @@ button:focus {
     float: none;
     width: 100%;
     margin-bottom: 20px;
-    padding: 50px 40px 50px 40px;
   }
 
   .textBlock__number {
@@ -1047,6 +1111,33 @@ button:focus {
   }
 
   /****************************************************************/
+
+  /**************************ChooseDecor**************************/
+
+  .chooseBlock_Decor .btn_decor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chooseBlock_Decor .cakeBgc {
+    display: none;
+  }
+
+  .chooseBlock_Decor .itemBox__item .imageBox .decorImg {
+    width: 80%;
+  }
+
+  .chooseBlock_Decor .decorText {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .chooseBlock_Decor .my-dots {
+    bottom: 120px;
+  }
+
+  /************************************************************************/
 }
 
 @media screen and (max-width: 320px) {

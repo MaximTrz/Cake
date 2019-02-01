@@ -506,8 +506,106 @@
 		 	Оформление
 		 </div>
 		 <!-- /.textBlock__subtitle -->
+		 <div class="cakeBgc">
+		 	
+		 </div>
+		 <!-- /.cakeBgc -->
 	</div>
 	<!-- /.textBlock -->
+	<div class="decorSlider">
+		<div class="itemBox">
+			<div class="itemBox__item">
+				<div class="imageBox">
+					<img src="img/decor/berry.jpg" alt="" class="decorImg">
+				</div>
+				<!-- /.imageBox -->
+				<div class="decorText">
+					<div class="decorText__name">
+						Ягодное ассорти
+					</div>
+					<!-- /.decorText__name -->
+					<div class="decorText__price">
+						700 руб/кг
+					</div>
+					<!-- /.decorText__price -->
+				</div>
+				<!-- /.decorText -->
+				<button class="btn btn_decor">Выбрать</button>
+			</div>
+			<!-- /.itemBox__item -->
+		</div>
+		<!-- /.itemBox -->
+		<div class="itemBox">
+			<div class="itemBox__item">
+				<div class="imageBox">
+					<img src="img/decor/marshmallow.jpg" alt="" class="decorImg">
+				</div>
+				<!-- /.imageBox -->
+				<div class="decorText">
+					<div class="decorText__name">
+						Маршмэллоу
+					</div>
+					<!-- /.decorText__name -->
+					<div class="decorText__price">
+						600 руб/кг
+					</div>
+					<!-- /.decorText__price -->
+				</div>
+				<!-- /.decorText -->
+				<button class="btn btn_decor">Выбрать</button>
+			</div>
+			<!-- /.itemBox__item -->
+		</div>
+		
+		<!-- /.itemBox -->
+		<div class="itemBox">
+			<div class="itemBox__item">
+				<div class="imageBox">
+					<img src="img/decor/marshmallow.jpg" alt="" class="decorImg">
+				</div>
+				<!-- /.imageBox -->
+				<div class="decorText">
+					<div class="decorText__name">
+						Маршмэллоу
+					</div>
+					<!-- /.decorText__name -->
+					<div class="decorText__price">
+						600 руб/кг
+					</div>
+					<!-- /.decorText__price -->
+				</div>
+				<!-- /.decorText -->
+				<button class="btn btn_decor">Выбрать</button>
+			</div>
+			<!-- /.itemBox__item -->
+		</div>
+		
+		<!-- /.itemBox -->
+		<div class="itemBox">
+			<div class="itemBox__item">
+				<div class="imageBox">
+					<img src="img/decor/berry.jpg" alt="" class="decorImg">
+				</div>
+				<!-- /.imageBox -->
+				<div class="decorText">
+					<div class="decorText__name">
+						Ягодное ассорти
+					</div>
+					<!-- /.decorText__name -->
+					<div class="decorText__price">
+						700 руб/кг
+					</div>
+					<!-- /.decorText__price -->
+				</div>
+				<!-- /.decorText -->
+				<button class="btn btn_decor">Выбрать</button>
+			</div>
+			<!-- /.itemBox__item -->
+		</div>
+		<!-- /.itemBox -->
+
+	</div>
+	<!-- /.decorSlider -->
 	
 </div>
 <!-- /.chooseBlock -->
@@ -550,6 +648,8 @@
 
 	  ]
 	});
+
+
 
 	//sizeSlider
 
@@ -605,7 +705,28 @@
 	  ]
 	});
 
+	$('.decorSlider').slick({
+	  infinite: true,
+	  prevArrow: '<button class="prev"></button>',
+	  nextArrow: '<button class="next"></button>',
+	  slidesToShow: 2,
+	  slidesToScroll: 2,
+	  responsive: [
+	    {
+	      breakpoint: 577,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true,
+	        dots: true,
+	        dotsClass: "my-dots",
+	        arrows: false
 
+	      }
+	    }
+
+	  ]
+	});
 
 </script>
 </body>

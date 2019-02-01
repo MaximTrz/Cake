@@ -76,3 +76,22 @@ box-shadow: none;
 .my-dots li.slick-active button:before {
   opacity: 0;
 }
+
+.prev{
+  border: none;
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  background: url(../img/slider/arrowLeft.png) no-repeat center;
+
+}
+
+.next{
+  position: absolute;
+  background-color: red;
+  border: none;
+  width: 25px;
+  height: 15px;
+  z-index: 100;   
+  background: url(../img/slider/arrowRight.png) no-repeat center;
+}

@@ -1,0 +1,52 @@
+.chooseBlock_Decor{
+
+.btn_decor{
+	display: none;
+	box-shadow: none;
+}
+
+.cakeBgc{
+	height: 300px;
+	width: 120%;
+	background: url(../img/decor/bgc.png) no-repeat center; 
+	background-size: 120% auto;
+}
+
+		.prev{
+	  top: 50%;
+	  left: 15%;
+	}
+	.next{
+	  top: 50%;
+	  left: 94%;  
+	}
+
+.itemBox__item{
+	
+		.imageBox{
+			.decorImg{
+			margin-left: auto;
+			margin-right: auto;
+			width: 65%;
+			height: auto;
+		}
+	}
+}
+
+.decorText{
+	margin-top: -25%;
+	text-align: center;
+	&__name{
+		font-family: "Circe";
+		color: rgb(47, 47, 47);
+		line-height: 1.5;
+	}
+	&__price{
+		font-family: "Playfair Display";
+		color: rgb(47, 47, 47);
+		font-weight: bold;
+	}
+
+}
+
+}
