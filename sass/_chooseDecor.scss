@@ -23,17 +23,15 @@
 	}
 
 	.itemBox__item{
-		
-			.imageBox{
-				.decorImg{
-				margin-left: auto;
-				margin-right: auto;
-				width: 65%;
-				height: auto;
+		.imageBox{
+			.decorImg{
+			margin-left: auto;
+			margin-right: auto;
+			width: 65%;
+			height: auto;
 			}
 		}
 	}
-
 	.decorText{
 		margin-top: -25%;
 		text-align: center;
@@ -47,9 +45,7 @@
 			color: rgb(47, 47, 47);
 			font-weight: bold;
 		}
-
 	}
-	
 	.yourChoice{
 		margin-top: 30px;
 		.tittle{
@@ -58,12 +54,39 @@
 			padding: 0;
 		}
 	}
+}
 
 
+.yourChoice__tittle{
+	margin-bottom: 15px;
+	font-family: "Playfair Display";
+	color: rgb(45, 40, 41);
+	font-weight: bold;
 }
 
 .choiceBlock{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.choiceBlockItem{
+	&__tittle{
+		font-size: 20px;
+		font-family: "Intro Script R", serif;
+		color: rgb(245, 0, 73);
+		margin-bottom: 10px;
+	}
+	&__value{
+		border-radius: 20px;
+		border: 1px solid #dddddd;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 12px;
+	}
+}
+
+.btn_offer{
+	align-self: flex-end;
 }

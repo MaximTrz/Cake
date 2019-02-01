@@ -134,6 +134,7 @@ button:focus {
   padding-right: 65px;
 }
 
+.btn_offer,
 .btn_s {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -655,6 +656,13 @@ button:focus {
   padding: 0;
 }
 
+.yourChoice__tittle {
+  margin-bottom: 15px;
+  font-family: "Playfair Display";
+  color: #2d2829;
+  font-weight: bold;
+}
+
 .choiceBlock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,6 +672,27 @@ button:focus {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.choiceBlockItem__tittle {
+  font-size: 20px;
+  font-family: "Intro Script R", serif;
+  color: #f50049;
+  margin-bottom: 10px;
+}
+
+.choiceBlockItem__value {
+  border-radius: 20px;
+  border: 1px solid #dddddd;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.btn_offer {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 1280px) {
