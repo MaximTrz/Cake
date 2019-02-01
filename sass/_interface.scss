@@ -83,7 +83,7 @@ box-shadow: none;
   width: 25px;
   height: 15px;
   background: url(../img/slider/arrowLeft.png) no-repeat center;
-
+  z-index: 100; 
 }
 
 .next{

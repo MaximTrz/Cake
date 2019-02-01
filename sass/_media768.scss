@@ -167,6 +167,34 @@ body{
 
 /****************************************************************/
 
+/**************************ChooseDecor**************************/
+.chooseBlock_Decor{
+
+	.cakeBgc{
+		margin-top: 20px;
+		height: 100px;
+		width: 80%;
+		background: url(../img/decor/bgc.png) no-repeat center; 
+		background-size: 120% auto;
+	}
+
+.prev{
+	  top: 50%;
+	  left: 19%;
+	}
+
+
+	.itemBox__item{
+			.imageBox{
+				.decorImg{
+				width: 80%;
+			}
+		}
+	}
+
+}
+
+/************************************************************************/
 
 }
 

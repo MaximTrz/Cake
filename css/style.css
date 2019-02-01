@@ -205,6 +205,7 @@ button:focus {
   width: 25px;
   height: 15px;
   background: url("../img/slider/arrowLeft.png") no-repeat center;
+  z-index: 100;
 }
 
 .next {
@@ -603,7 +604,8 @@ button:focus {
 }
 
 .chooseBlock_Decor .cakeBgc {
-  height: 300px;
+  margin-top: 20px;
+  height: 200px;
   width: 120%;
   background: url("../img/decor/bgc.png") no-repeat center;
   background-size: 120% auto;
@@ -641,6 +643,27 @@ button:focus {
   font-family: "Playfair Display";
   color: #2f2f2f;
   font-weight: bold;
+}
+
+.chooseBlock_Decor .yourChoice {
+  margin-top: 30px;
+}
+
+.chooseBlock_Decor .yourChoice .tittle {
+  display: block;
+  margin-left: 0;
+  padding: 0;
+}
+
+.choiceBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1280px) {
@@ -807,6 +830,27 @@ button:focus {
   }
 
   /****************************************************************/
+
+  /**************************ChooseDecor**************************/
+
+  .chooseBlock_Decor .cakeBgc {
+    margin-top: 20px;
+    height: 100px;
+    width: 80%;
+    background: url("../img/decor/bgc.png") no-repeat center;
+    background-size: 120% auto;
+  }
+
+  .chooseBlock_Decor .prev {
+    top: 50%;
+    left: 19%;
+  }
+
+  .chooseBlock_Decor .itemBox__item .imageBox .decorImg {
+    width: 80%;
+  }
+
+  /************************************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -1126,6 +1170,7 @@ button:focus {
 
   .chooseBlock_Decor .itemBox__item .imageBox .decorImg {
     width: 80%;
+    max-height: 500px;
   }
 
   .chooseBlock_Decor .decorText {
