@@ -110,6 +110,12 @@
 					justify-content: space-between;	
 				}
 				
+				.ringBox{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 200px;
+				}
 							
 				.text{
 					text-align: center;
@@ -155,7 +161,7 @@
 		}
 
 .my-dots {
-top: 155px;
+top: 190px;
 transform: translateX(-10px);
 }
 

@@ -178,20 +178,40 @@ body{
 		background-size: 120% auto;
 	}
 
-.prev{
-	  top: 50%;
-	  left: 19%;
-	}
-
-
+	.prev{
+		  top: 50%;
+		  left: 19%;
+		}
 	.itemBox__item{
-			.imageBox{
-				.decorImg{
-				width: 80%;
+				.imageBox{
+					.decorImg{
+					width: 80%;
+				}
 			}
 		}
-	}
 
+}
+
+
+
+.choiceBlockItem{
+	&__value{
+		border-radius: 20px;
+		border: 1px solid #dddddd;
+		width: 150px;
+	}
+}
+
+
+.choiceBlockItem_size{
+	&__value{
+	width: 70px;
+	}
+}
+
+.btn_offer{
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 /************************************************************************/

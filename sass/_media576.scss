@@ -198,10 +198,14 @@ top: 150px;
 /***************ChooseSize**************************/
 
 .chooseBlock{
-	padding: 15px 20px 15px 20px;
+	padding: 15px 20px 25px 20px;
 }
 
 .sizeSlider{
+
+.my-dots {
+top: 130px;
+}
 
 
 		.itemBox{
@@ -209,6 +213,13 @@ top: 150px;
 				&__item{
 					height: 250px;
 					justify-content: space-around;
+				}
+
+				.ringBox{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 200px;
 				}
 				
 							
@@ -277,9 +288,6 @@ top: 150px;
 			background: url(../img/slider/arrowRight.png) no-repeat center;
 		}
 
-.my-dots {
-top: 115px;
-}
 
 }
 
@@ -312,6 +320,34 @@ top: 115px;
 	bottom: 120px;
 	}
 }
+
+.choiceBlock{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.choiceBlockItem{
+		width: 100%;
+	&__value{
+		width: 100%;
+	}
+}
+
+
+.choiceBlockItem_size{
+	&__value{
+	width: 100%;
+	}
+}
+
+.btn_offer{
+	margin-top: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+
+
 
 /************************************************************************/
 

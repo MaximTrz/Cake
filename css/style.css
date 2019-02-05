@@ -641,7 +641,7 @@ button:focus {
 }
 
 .chooseBlock_Decor .decorText__price {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   color: #2f2f2f;
   font-weight: bold;
 }
@@ -658,7 +658,7 @@ button:focus {
 
 .yourChoice__tittle {
   margin-bottom: 15px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   color: #2d2829;
   font-weight: bold;
 }
@@ -670,8 +670,8 @@ button:focus {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .choiceBlockItem__tittle {
@@ -682,8 +682,8 @@ button:focus {
 }
 
 .choiceBlockItem__value {
-  border-radius: 20px;
-  border: 1px solid #dddddd;
+  border: none;
+  border-bottom: 1px solid #dddddd;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -877,6 +877,21 @@ button:focus {
 
   .chooseBlock_Decor .itemBox__item .imageBox .decorImg {
     width: 80%;
+  }
+
+  .choiceBlockItem__value {
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    width: 150px;
+  }
+
+  .choiceBlockItem_size__value {
+    width: 70px;
+  }
+
+  .btn_offer {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   /************************************************************************/
@@ -1107,13 +1122,30 @@ button:focus {
   /***************ChooseSize**************************/
 
   .chooseBlock {
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px 25px 20px;
+  }
+
+  .sizeSlider .my-dots {
+    top: 130px;
   }
 
   .sizeSlider .itemBox__item {
     height: 250px;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+  }
+
+  .sizeSlider .itemBox .ringBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 200px;
   }
 
   .sizeSlider .itemBox .text .personCount {
@@ -1179,10 +1211,6 @@ button:focus {
     background: url("../img/slider/arrowRight.png") no-repeat center;
   }
 
-  .sizeSlider .my-dots {
-    top: 115px;
-  }
-
   /****************************************************************/
 
   /**************************ChooseDecor**************************/
@@ -1209,6 +1237,32 @@ button:focus {
 
   .chooseBlock_Decor .my-dots {
     bottom: 120px;
+  }
+
+  .choiceBlock {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .choiceBlockItem {
+    width: 100%;
+  }
+
+  .choiceBlockItem__value {
+    width: 100%;
+  }
+
+  .choiceBlockItem_size__value {
+    width: 100%;
+  }
+
+  .btn_offer {
+    margin-top: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   /************************************************************************/
@@ -1340,6 +1394,19 @@ button:focus {
     justify-content: space-between;
   }
 
+  .sizeSlider .itemBox .ringBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 200px;
+  }
+
   .sizeSlider .itemBox .text {
     text-align: center;
   }
@@ -1381,7 +1448,7 @@ button:focus {
   }
 
   .sizeSlider .my-dots {
-    top: 155px;
+    top: 190px;
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }

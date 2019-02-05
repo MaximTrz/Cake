@@ -41,7 +41,7 @@
 			line-height: 1.5;
 		}
 		&__price{
-			font-family: "Playfair Display";
+			font-family: "Playfair Display", serif;
 			color: rgb(47, 47, 47);
 			font-weight: bold;
 		}
@@ -59,7 +59,7 @@
 
 .yourChoice__tittle{
 	margin-bottom: 15px;
-	font-family: "Playfair Display";
+	font-family: "Playfair Display", serif;
 	color: rgb(45, 40, 41);
 	font-weight: bold;
 }
@@ -67,7 +67,7 @@
 .choiceBlock{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 .choiceBlockItem{
@@ -78,8 +78,8 @@
 		margin-bottom: 10px;
 	}
 	&__value{
-		border-radius: 20px;
-		border: 1px solid #dddddd;
+		border: none;
+		border-bottom: 1px solid #dddddd;
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 10px;
