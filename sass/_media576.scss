@@ -322,6 +322,7 @@ top: 130px;
 }
 
 .choiceBlock{
+	text-align: center;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -331,6 +332,7 @@ top: 130px;
 	&__value{
 		width: 100%;
 	}
+	margin-bottom: 10px;
 }
 
 

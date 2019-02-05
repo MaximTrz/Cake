@@ -598,6 +598,10 @@ button:focus {
   background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
+.chooseBlock_Decor {
+  margin-bottom: 0px;
+}
+
 .chooseBlock_Decor .btn_decor {
   display: none;
   -webkit-box-shadow: none;
@@ -693,6 +697,13 @@ button:focus {
 .btn_offer {
   -ms-flex-item-align: end;
   align-self: flex-end;
+}
+
+.feedback {
+  height: 100vh;
+  background: url("../img/feedback/feedback_bg.png") no-repeat center;
+  background-position: 100% 0px;
+  background-size: 100% auto;
 }
 
 @media screen and (max-width: 1280px) {
@@ -1240,6 +1251,7 @@ button:focus {
   }
 
   .choiceBlock {
+    text-align: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -1249,6 +1261,7 @@ button:focus {
 
   .choiceBlockItem {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .choiceBlockItem__value {
