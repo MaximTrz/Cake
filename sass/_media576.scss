@@ -376,4 +376,31 @@ top: 130px;
 
 /********************************************************************/
 
+/******************************About********************************/
+
+.tittleAbout{
+text-align: center;
+}
+
+.aboutBox{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.aboutText{
+		order: 1;
+	}
+	.imgBox{
+		order: 0;
+		transform: none;
+		margin-bottom: 15px;
+		&__img{			
+			width: 60%;
+			height: auto;
+		}
+	}
+
+}
+
+
+/******************************************************************/
+
 }

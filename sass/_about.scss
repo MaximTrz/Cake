@@ -1,0 +1,42 @@
+.tittleAbout{
+	font-size: 40px;
+	font-family: "Playfair Display", serif;
+	color: rgb(45, 40, 41);
+	font-weight: bold;
+}
+
+.aboutBox{
+	display: flex;
+	justify-content: space-between;
+	.aboutText{
+		flex-basis: 550px;
+		&__tittle{
+			font-size: 25px;
+			font-family: "Intro Script R";
+			color: rgb(50, 49, 61);
+		}
+		&__subtittle{
+			font-family: "Circe", serif;
+			font-size: 20px;
+			font-family: "Circe";
+			color: rgb(45, 40, 41);
+			font-weight: bold;
+		}
+		&__text{
+			font-family: "Circe", serif;
+			font-size: 16px;
+			color: rgb(45, 40, 41);
+			margin-bottom: 25px;
+		}
+	}
+	.imgBox{
+		flex-basis: 500px;
+		transform: translateY(-50px);
+		&__img{			
+			border-radius: 50%;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+}

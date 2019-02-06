@@ -701,8 +701,8 @@ button:focus {
 
 .feedback {
   background: url("../img/feedback/feedback_bg.png") no-repeat top;
-  height: 100vh;
   border: 2px solid transparent;
+  margin-bottom: 100px;
 }
 
 .tittleFeedback {
@@ -757,26 +757,68 @@ button:focus {
 }
 
 .feedbackSlider .prev {
-  background-color: red;
-  border: none;
-  position: absolute;
   top: 50%;
   left: 15%;
-  width: 25px;
-  height: 15px;
-  background: url("../img/slider/arrowLeft.png") no-repeat center;
 }
 
 .feedbackSlider .next {
-  position: absolute;
-  background-color: red;
-  border: none;
   top: 50%;
-  width: 25px;
   right: 15%;
-  height: 15px;
-  z-index: 100;
-  background: url("../img/slider/arrowRight.png") no-repeat center;
+}
+
+.tittleAbout {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #2d2829;
+  font-weight: bold;
+}
+
+.aboutBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.aboutBox .aboutText {
+  -ms-flex-preferred-size: 550px;
+  flex-basis: 550px;
+}
+
+.aboutBox .aboutText__tittle {
+  font-size: 25px;
+  font-family: "Intro Script R";
+  color: #32313d;
+}
+
+.aboutBox .aboutText__subtittle {
+  font-family: "Circe", serif;
+  font-size: 20px;
+  font-family: "Circe";
+  color: #2d2829;
+  font-weight: bold;
+}
+
+.aboutBox .aboutText__text {
+  font-family: "Circe", serif;
+  font-size: 16px;
+  color: #2d2829;
+  margin-bottom: 25px;
+}
+
+.aboutBox .imgBox {
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px;
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+.aboutBox .imgBox__img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1280px) {
@@ -979,6 +1021,48 @@ button:focus {
   }
 
   /************************************************************************/
+
+  /*******************************Feedback********************************/
+
+  .feedback {
+    background: url("../img/feedback/feedback_bg.png") no-repeat top;
+    border: 2px solid transparent;
+    margin-bottom: 100px;
+  }
+
+  .tittleFeedback {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #2d2829;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 115px;
+  }
+
+  .feedbackSlider .prev {
+    top: 50%;
+    left: 1%;
+  }
+
+  .feedbackSlider .next {
+    top: 50%;
+    right: 1%;
+  }
+
+  /***************************************************************************/
+
+  /*******************************About*************************************/
+
+  .aboutBox .aboutText__subtittle {
+    font-size: 16px;
+  }
+
+  .aboutBox .aboutText__text {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  /**************************************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -1378,6 +1462,42 @@ button:focus {
   }
 
   /********************************************************************/
+
+  /******************************About********************************/
+
+  .tittleAbout {
+    text-align: center;
+  }
+
+  .aboutBox {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .aboutBox .aboutText {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .aboutBox .imgBox {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-transform: none;
+    transform: none;
+    margin-bottom: 15px;
+  }
+
+  .aboutBox .imgBox__img {
+    width: 60%;
+    height: auto;
+  }
+
+  /******************************************************************/
 }
 
 @media screen and (max-width: 320px) {
