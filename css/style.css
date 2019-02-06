@@ -756,6 +756,29 @@ button:focus {
   color: #2d2829;
 }
 
+.feedbackSlider .prev {
+  background-color: red;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 25px;
+  height: 15px;
+  background: url("../img/slider/arrowLeft.png") no-repeat center;
+}
+
+.feedbackSlider .next {
+  position: absolute;
+  background-color: red;
+  border: none;
+  top: 50%;
+  width: 25px;
+  right: 15%;
+  height: 15px;
+  z-index: 100;
+  background: url("../img/slider/arrowRight.png") no-repeat center;
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     padding-left: 75px;
@@ -1329,6 +1352,32 @@ button:focus {
   }
 
   /************************************************************************/
+
+  /****************************Feedback************************************/
+
+  .feedbackSlider .item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .feedbackSlider .item .text {
+    margin-left: 0;
+  }
+
+  .feedbackSlider .item .text__name {
+    text-align: center;
+  }
+
+  .feedbackSlider .item .text__subtittle {
+    text-align: center;
+  }
+
+  .feedbackSlider .my-dots li button:before {
+    background-color: #ffffff;
+    border: 5px solid #fbebea;
+  }
+
+  /********************************************************************/
 }
 
 @media screen and (max-width: 320px) {

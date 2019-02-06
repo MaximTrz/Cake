@@ -353,4 +353,27 @@ top: 130px;
 
 /************************************************************************/
 
+
+/****************************Feedback************************************/
+.feedbackSlider{
+	.item{
+		flex-wrap: wrap;
+		.text{
+			margin-left: 0;
+			&__name{
+				text-align: center;
+			}
+			&__subtittle{
+				text-align: center;
+			}
+		}
+	}
+	.my-dots li button:before {
+	  background-color: #ffffff;
+	  border: 5px solid #fbebea;
+	 }
+}
+
+/********************************************************************/
+
 }

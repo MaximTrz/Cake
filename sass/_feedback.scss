@@ -47,4 +47,26 @@
 
 		}
 	}
+	.prev{
+		background-color: red;
+		border: none;
+		position: absolute;
+		top: 50%;
+		left: 15%;
+		width: 25px;
+		height: 15px;
+		background: url(../img/slider/arrowLeft.png) no-repeat center;
+
+	}
+	.next{
+		position: absolute;
+		background-color: red;
+		border: none;
+		top: 50%;
+		width: 25px;
+		right: 15%;
+		height: 15px;
+		z-index: 100;		
+		background: url(../img/slider/arrowRight.png) no-repeat center;
+	}
 }
