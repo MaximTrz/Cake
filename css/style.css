@@ -700,10 +700,60 @@ button:focus {
 }
 
 .feedback {
+  background: url("../img/feedback/feedback_bg.png") no-repeat top;
   height: 100vh;
-  background: url("../img/feedback/feedback_bg.png") no-repeat center;
-  background-position: 100% 0px;
-  background-size: 100% auto;
+  border: 2px solid transparent;
+}
+
+.tittleFeedback {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #2d2829;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.feedbackSlider .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedbackSlider .item__image {
+  border-radius: 50%;
+}
+
+.feedbackSlider .item .text {
+  -ms-flex-preferred-size: 355px;
+  flex-basis: 355px;
+  margin-left: 55px;
+}
+
+.feedbackSlider .item .text__name {
+  font-size: 27px;
+  font-family: "Circe", serif;
+  color: #2d2829;
+  font-weight: bold;
+}
+
+.feedbackSlider .item .text__subtittle {
+  font-size: 20px;
+  font-family: "Circe";
+  color: #2d2829;
+  font-weight: normal;
+}
+
+.feedbackSlider .item .text__feedback {
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  color: #2d2829;
 }
 
 @media screen and (max-width: 1280px) {
