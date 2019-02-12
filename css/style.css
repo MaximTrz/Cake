@@ -850,6 +850,30 @@ button:focus {
   color: #f61f5f;
 }
 
+.signBox {
+  text-align: center;
+}
+
+.signBox__quotes {
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
+  color: #fffefe;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.signBox__text {
+  max-width: 625px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: #2d2829;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     padding-left: 75px;
@@ -1550,6 +1574,30 @@ button:focus {
   .socialBox {
     margin-bottom: 15px;
     margin-right: 0;
+  }
+
+  .signBox {
+    text-align: center;
+  }
+
+  .signBox__quotes {
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    color: #fffefe;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .signBox__text {
+    max-width: 625px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    color: #2d2829;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 50px;
   }
 
   /******************************************************************/

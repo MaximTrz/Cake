@@ -60,3 +60,26 @@
 	font-size: 20px;
 	color: #f61f5f;
 }
+
+.signBox{
+	text-align: center;
+	&__quotes{
+		font-size: 80px;
+		font-family: "Playfair Display", serif;
+		color: rgb(255, 254, 254);
+		font-weight: bold;
+		margin-bottom: 36px;
+	}
+	&__text{
+		max-width: 625px;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 22px;
+		font-family: "Playfair Display", serif;
+		color: rgb(45, 40, 41);
+		font-weight: bold;
+		font-style: italic;
+		margin-bottom: 50px;
+	}
+}
+
