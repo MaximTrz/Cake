@@ -400,6 +400,27 @@ text-align: center;
 
 }
 
+.aboutText__social{
+display: none;
+}
+
+.aboutText__social_small{
+display: block;
+}
+
+	.imgBox{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		transform: none;
+	}
+
+	.socialBox{
+		margin-bottom: 15px;
+		margin-right: 0;
+	}
+
+
 
 /******************************************************************/
 
