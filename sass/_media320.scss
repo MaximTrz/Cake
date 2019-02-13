@@ -173,4 +173,35 @@ transform: translateX(-10px);
 
 /*************************************************/
 
+/********************************Advanteges*******************************/
+
+
+.imgBox_adv-left{
+	height: 140px;
+}
+.imgAdv_left{
+	width: 160%;
+	transform: translateX(-100px);
+}
+
+.advantageItem{
+	.textBox{
+		flex-basis: 100%;
+		text-align: center;
+		&__tittle{
+			font-family: "Playfair Display", serif;
+			&_left{
+				font-size: 24px;				
+			}
+		}
+		&_left{
+			text-align: left;
+			margin-left: 0px;
+			order: 0;			
+		}
+	}
+}
+
+/*************************************************************************/
+
 }

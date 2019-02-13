@@ -267,6 +267,59 @@ body{
 
 /**************************************************************************/
 
+/********************************Advanteges*******************************/
+
+.imgBox_adv{
+	position: absolute;
+	left: 0;
+}
+.advantagesContainer_left{
+	justify-content: space-around;
+}
+
+.imgBox_adv-left{
+	position: relative;
+	flex-basis: 400px;
+	text-align: right;
+}
+
+.imgAdv{
+	width: 70%;
+	&_left{
+		width: 90%;
+	}
+}
+
+.advantageItem{
+	.textBox{
+		&__tittle{
+			&_left{
+				font-size: 40px;
+				margin-bottom: 15px;
+			}
+		}
+		&__subtittle{
+			font-size: 30px;
+			font-family: "Intro Script R", serif;
+			color: rgb(50, 49, 61);
+			margin-bottom: 15px;
+		}
+		&__text{
+			&_left{
+				font-size: 18px;
+				font-family: "Circe", serif;
+				color: rgb(0, 0, 0);
+			}
+		}
+	}
+	.textBox_left{
+		flex-basis: 400px;
+		margin-left: 0px;
+	}
+}
+
+/*************************************************************************/
+
 
 }
 
