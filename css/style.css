@@ -1359,6 +1359,22 @@ button:focus {
   }
 
   /*************************************************************************/
+
+  /********************************howToOrder******************************/
+
+  .howToOrder {
+    background: #e53940 url("../img/howToOrder/bgcSM.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .orderTextBlock {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    -ms-flex-preferred-size: 440px;
+    flex-basis: 440px;
+  }
+
+  /*************************************************************************/
 }
 
 @media screen and (max-width: 576px) {
