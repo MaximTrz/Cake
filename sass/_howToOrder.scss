@@ -1,0 +1,57 @@
+.howToOrder{
+	background: url(../img/howToOrder/bgc.jpg) no-repeat center;
+	background-size: cover;
+	}
+
+.orderWrapper{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.orderTextBlock{
+	margin-top: 130px;
+	margin-bottom: 180px;
+	flex-basis: 500px;
+}
+
+.orderItem{
+	display: flex;
+	margin-bottom: 35px;
+}
+
+.tittle_order{
+	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+
+
+.item__number{
+	align-self: flex-start;
+	font-size: 35px;
+	font-family: "Playfair Display", serif;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	transform: translateY(-14px);
+	margin-right: 15px;
+}
+
+.textBlock{
+		&__tittle{
+		font-size: 20px;
+		&__text{
+			font-size: 18px;
+		}
+	}
+}
+
+
+.textBlock_order{
+	font-family: "Circe", serif;
+	flex-basis: 400px;
+	color: rgb(255, 255, 255);
+}
+
