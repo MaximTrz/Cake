@@ -1064,6 +1064,10 @@ button:focus {
   color: white;
 }
 
+.orderImageBox {
+  display: none;
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     padding-left: 75px;
@@ -1934,6 +1938,49 @@ button:focus {
   }
 
   /*************************************************************************/
+
+  /*********************************howToOrder******************************/
+
+  .howToOrder {
+    background: url("../img/howToOrder/bgsXSM.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .orderWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .orderItem {
+    margin-bottom: 20px;
+  }
+
+  .orderImageBox {
+    display: block;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  .orderImageBox__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .orderTextBlock {
+    margin-top: 50px;
+    margin-bottom: 0;
+    -ms-flex-preferred-size: none;
+    flex-basis: none;
+  }
+
+  /**************************************************************************/
 }
 
 @media screen and (max-width: 320px) {

@@ -1,7 +1,7 @@
 .howToOrder{
 	background: url(../img/howToOrder/bgc.jpg) no-repeat center;
 	background-size: cover;
-	}
+}
 
 .orderWrapper{
 	display: flex;
@@ -55,3 +55,6 @@
 	color: rgb(255, 255, 255);
 }
 
+.orderImageBox{
+	display: none;
+}

@@ -504,4 +504,41 @@ display: none;
 
 /*************************************************************************/
 
+/*********************************howToOrder******************************/
+
+.howToOrder{
+	background: url(../img/howToOrder/bgsXSM.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.orderWrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.orderItem{
+	margin-bottom: 20px;
+}
+
+.orderImageBox{
+	display: block;
+	transform: translateY(4px);
+	&__img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.orderTextBlock{
+	margin-top: 50px;
+	margin-bottom: 0;
+	flex-basis: none;
+}
+
+
+/**************************************************************************/
+
+
 }
