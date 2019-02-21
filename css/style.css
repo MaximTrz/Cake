@@ -42,6 +42,22 @@ button:focus {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/MyRiad/MyriadPro-Light.woff") format("woff"), url("../fonts/MyRiad/MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyRiad/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyRiad/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .header {
   background: url("../img/header/berry.png") no-repeat;
   background-position: 35% 60px;
@@ -1066,6 +1082,85 @@ button:focus {
 
 .orderImageBox {
   display: none;
+}
+
+.contacts_title {
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+
+.contactsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.contactsBlock__title {
+  font-family: "Intro Script R";
+  font-size: 25px;
+  color: #32313d;
+  margin-bottom: 30px;
+}
+
+.contactsBlock__subtitle {
+  font-size: 20px;
+  font-family: "Myriad Pro Regular", serif;
+  margin-bottom: 40px;
+}
+
+.contactsBlock__input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c9bcbb;
+  padding-top: 20px;
+  background: transparent;
+}
+
+.contactsBlock__input_quest {
+  margin-bottom: 80px;
+}
+
+.contactsBlock__email {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Myriad Pro Regular", serif;
+}
+
+.contactsBlock_right {
+  margin-left: 80px;
+}
+
+.phoneBlock {
+  font-size: 20px;
+  font-family: "Myriad Pro Regular", serif;
+  margin-bottom: 30px;
+}
+
+.phoneBlock span {
+  display: block;
+}
+
+.socialText {
+  font-size: 20px;
+  font-family: "Myriad Pro Regular", serif;
+  margin-bottom: 20px;
+}
+
+.socialBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socialBox_contact {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 1280px) {

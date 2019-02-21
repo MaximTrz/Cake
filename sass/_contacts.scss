@@ -1,0 +1,70 @@
+.contacts_title{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 45px;    
+}
+
+.contactsWrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactsBlock{
+    &__title{
+        font-family: "Intro Script R";
+        font-size: 25px;
+        color: rgb(50, 49, 61);
+        margin-bottom: 30px;
+    }
+    &__subtitle{
+        font-size: 20px;
+        font-family: "Myriad Pro Regular", serif;
+        margin-bottom: 40px;
+    }
+    &__input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c9bcbb;
+    padding-top: 20px;
+    background: transparent;
+        &_quest{
+            margin-bottom: 80px;
+        }    
+    }
+    &__email{
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-family: "Myriad Pro Regular", serif;
+    }
+}
+
+.contactsBlock_right{
+    margin-left: 80px;
+}
+
+.phoneBlock{
+    font-size: 20px;
+    font-family: "Myriad Pro Regular", serif;
+    span{
+        display: block;
+    }
+    margin-bottom: 30px;
+
+}
+
+.socialText{
+    font-size: 20px;
+    font-family: "Myriad Pro Regular", serif;
+    margin-bottom: 20px;
+}
+
+.socialBlock{
+    display: flex;
+}
+
+.socialBox_contact{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+}

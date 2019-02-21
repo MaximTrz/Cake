@@ -15,6 +15,26 @@ src: url("../fonts/IntroScriptR-H2Base.otf") format("opentype");
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Myriad Pro Light';
+	src: url('MyriadPro-Light.eot');
+	src: url('MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyRiad/MyriadPro-Light.woff') format('woff'),
+	url('../fonts/MyRiad/MyriadPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: url('MyriadPro-Regular.eot');
+	src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MyRiad/MyriadPro-Regular.woff') format('woff'),
+	url('../fonts/MyRiad/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 
