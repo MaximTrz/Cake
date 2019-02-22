@@ -29,6 +29,15 @@ button:focus {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+  color: #2d2829;
+}
+
+A:visited {
+  color: #2d2829;
+}
+
 @font-face {
   font-family: Intro Script R;
   src: url("../fonts/IntroScriptR-H2Base.otf") format("opentype");
@@ -1170,6 +1179,56 @@ button:focus {
   width: 60px;
   height: 60px;
   font-size: 30px;
+}
+
+footer {
+  background-color: #e8e8e8;
+}
+
+.footerMenu {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footerMenu__logo {
+  font-family: "Playfair Display";
+  color: #2d2829;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footerMenu__item {
+  font-family: "Myriad Pro Regular", serif;
+}
+
+.footerMenu .footerSocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerMenu .socialBox_footer {
+  background-color: transparent;
+  color: #8f8f8f;
+  font-size: 25px;
+}
+
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d0d0d0;
+  text-align: center;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.352);
 }
 
 @media screen and (max-width: 1280px) {
