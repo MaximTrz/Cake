@@ -1,3 +1,11 @@
+.contacts{
+    background: url(../img/questions/bgc.jpg) no-repeat; 
+    background-position: 100% 100%;
+    background-size: 50% auto;
+    padding-bottom: 108px;
+}
+
+
 .contacts_title{
     font-size: 30px;
     margin-top: 80px;
@@ -30,6 +38,8 @@
     background: transparent;
         &_quest{
             margin-bottom: 80px;
+            outline: none;
+            resize: none;
         }    
     }
     &__email{
