@@ -1483,6 +1483,32 @@ button:focus {
   }
 
   /*************************************************************************/
+
+  /****************************Contacts***********************************/
+
+  .contactsBlock__input {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-bottom: none;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .contactsBlock__input_quest {
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+    height: 120px;
+  }
+
+  .contactsBlock__email {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Myriad Pro Regular", serif;
+  }
+
+  /***********************************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -2085,6 +2111,47 @@ button:focus {
   }
 
   /**************************************************************************/
+
+  /****************************Contacts***********************************/
+
+  .contacts {
+    background: none;
+    padding-bottom: 0;
+  }
+
+  .contactsWrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .contactsBlock {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .contactsBlock_right {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .btnWrapper {
+    text-align: center;
+  }
+
+  .btn_contacts {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .socialBox_contact {
+    margin: 10px;
+  }
+
+  .contactsBlock__input {
+    width: 100%;
+  }
+
+  /***********************************************************************/
 }
 
 @media screen and (max-width: 320px) {

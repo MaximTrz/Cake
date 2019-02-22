@@ -335,5 +335,33 @@ body{
 
 /*************************************************************************/
 
+/****************************Contacts***********************************/
+
+.contactsBlock{
+
+    &__input{
+	background: white;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border-bottom: none;
+	padding-bottom: 20px;
+	padding-left: 10px;
+        &_quest{
+            margin-bottom: 30px;
+            outline: none;
+			resize: none;
+			height: 120px;
+        }    
+    }
+    &__email{
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-family: "Myriad Pro Regular", serif;
+    }
+}
+
+
+/***********************************************************************/
+
 }
 
