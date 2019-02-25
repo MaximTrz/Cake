@@ -544,7 +544,7 @@ display: none;
 
 .contacts{
 	background: none;
-	padding-bottom: 0;
+	padding-bottom: 20px;
 }
 
 .contactsWrapper{
@@ -584,8 +584,30 @@ display: none;
 
 
 /*******************************Footer*******************************/
+
 .footerMenu{
-	flex-wrap: wrap;
+    padding-bottom: 0px;
+    display: block;
+    &__item{
+		color: #ffffff;
+		display: block;		
+        &_Social{
+			display: flex;			
+        }    
+    }
 }
 
+.socialBox_footer{
+	color: #b6b6b6;
+}
+
+.copyright{
+	display: block;
+    text-align: left;
+	color: #adadad;
+	&__item_Social{
+		display: none;
+    }
+}
+/***********************************************************************/
 }

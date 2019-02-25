@@ -363,5 +363,59 @@ body{
 
 /***********************************************************************/
 
+/******************************Footer***********************************/
+
+footer{
+    background-color: #898989;
+}
+
+.footerMenu{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-end;
+	
+
+    &__item{
+		font-family: "Myriad Pro Regular", serif;
+		color: #ffffff;
+		margin-bottom: 20px;
+        &_Social{
+            display: none;
+        }
+        &_logo{
+			font-family: "Playfair Display";			          
+            font-weight: bold;
+            font-size: 20px;
+        }       
+    }
+
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #d0d0d0;
+    text-align: center;
+    font-family: "Roboto";
+	color: #adadad;
+	&__item_Social{
+		display: flex;
+		margin-left: 30px;
+    }
+}
+
+.socialBox_footer{
+    background-color: transparent;
+    font-size: 25px;
+}
+
+/**********************************************************************/
+
+
 }
 

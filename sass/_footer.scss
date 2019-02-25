@@ -8,23 +8,26 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__logo{
-        font-family: "Playfair Display";
-        color: rgb(45, 40, 41);
-        font-weight: bold;
-        font-size: 20px;
-    }
+
     &__item{
-        font-family: "Myriad Pro Regular", serif;       
+        font-family: "Myriad Pro Regular", serif;
+        &_Social{
+            display: flex;
+        }
+        &_logo{
+            font-family: "Playfair Display";
+            color: rgb(45, 40, 41);
+            font-weight: bold;
+            font-size: 20px;
+        }       
     }
-    .footerSocial{
-        display: flex;
-    }
-    .socialBox_footer{
-        background-color: transparent;
-        color: #8f8f8f;
-        font-size: 25px;
-    }
+
+}
+
+.socialBox_footer{
+    background-color: transparent;
+    color: #8f8f8f;
+    font-size: 25px;
 }
 
 .copyright{
@@ -34,4 +37,7 @@ footer{
     text-align: center;
     font-family: "Roboto";
     color: rgba(0, 0, 0, 0.352);
+    &__item_Social{
+        display: none;
+    }
 }
