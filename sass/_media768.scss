@@ -387,7 +387,8 @@ footer{
         &_logo{
 			font-family: "Playfair Display";			          
             font-weight: bold;
-            font-size: 20px;
+			font-size: 20px;
+			margin-bottom: 0px;
         }       
     }
 
@@ -415,6 +416,40 @@ footer{
 }
 
 /**********************************************************************/
+
+/******************************menu***********************************/
+
+.nav{
+	background-color: #fff;
+}
+.menu{
+	padding-top: 0;
+	align-items: center;
+}
+	
+
+.menuItems{
+	display: none;
+	&__item{
+		display: block;
+		margin-right: 0;
+		margin-bottom:10px;
+		text-transform: uppercase;
+		font-family: "Circe";
+		color: rgb(45, 40, 41);
+	}
+}
+
+.buttonMenuBox{
+	display: block;
+	&_phone{
+		display: none;
+	}
+	transform: translateY(2px);
+}
+
+/**********************************************************************/
+
 
 
 }
