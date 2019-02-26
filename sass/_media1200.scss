@@ -1,0 +1,23 @@
+@media screen and (max-width: 1366px){
+
+    body{
+        background: #fbebea url(../img/header/tort.png) no-repeat;
+        background-size: 67% auto;
+        background-position: 138% 15px;
+    }
+
+    .header{
+        background: url(../img/header/berry.png) no-repeat; 
+        background-position: 35% 60px;
+        background-size: 25% auto;
+        margin-bottom: 245px;
+        
+    }
+
+    .feedback{
+        background: url(../img/feedback/feedback_bg.png) no-repeat top;
+        border: 2px solid transparent;
+        margin-bottom: 100px;
+    }
+
+}

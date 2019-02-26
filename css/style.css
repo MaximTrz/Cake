@@ -1,7 +1,7 @@
 body {
   background: #fbebea url("../img/header/tort.png") no-repeat;
-  background-size: 67% auto;
-  background-position: 138% 15px;
+  background-size: 50% auto;
+  background-position: 120% 15px;
 }
 
 .container {
@@ -69,8 +69,8 @@ A:visited {
 
 .header {
   background: url("../img/header/berry.png") no-repeat;
-  background-position: 35% 60px;
-  background-size: 25% auto;
+  background-position: 50% 60px;
+  background-size: 18% auto;
   margin-bottom: 245px;
 }
 
@@ -725,7 +725,7 @@ A:visited {
 }
 
 .feedback {
-  background: url("../img/feedback/feedback_bg.png") no-repeat top;
+  background: none;
   border: 2px solid transparent;
   margin-bottom: 100px;
 }
@@ -1329,6 +1329,27 @@ footer {
   }
 }
 
+@media screen and (max-width: 1366px) {
+  body {
+    background: #fbebea url("../img/header/tort.png") no-repeat;
+    background-size: 67% auto;
+    background-position: 138% 15px;
+  }
+
+  .header {
+    background: url("../img/header/berry.png") no-repeat;
+    background-position: 35% 60px;
+    background-size: 25% auto;
+    margin-bottom: 245px;
+  }
+
+  .feedback {
+    background: url("../img/feedback/feedback_bg.png") no-repeat top;
+    border: 2px solid transparent;
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-size: 80% auto;
@@ -1527,9 +1548,7 @@ footer {
   /*******************************Feedback********************************/
 
   .feedback {
-    background: url("../img/feedback/feedback_bg.png") no-repeat top;
-    border: 2px solid transparent;
-    margin-bottom: 100px;
+    background: none;
   }
 
   .tittleFeedback {
@@ -2427,6 +2446,10 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .footerMenu__item_logo {
+    margin-bottom: 15px;
   }
 
   .socialBox_footer {

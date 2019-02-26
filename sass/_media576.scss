@@ -593,7 +593,10 @@ display: none;
 		display: block;		
         &_Social{
 			display: flex;			
-        }    
+		}
+		&_logo{
+			margin-bottom: 15px;
+		}    
     }
 }
 

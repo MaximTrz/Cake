@@ -3,9 +3,8 @@
 
 body{
 	background: #fbebea url(../img/header/tort.png) no-repeat;
-	background-size: 67% auto;
-	background-position: 138% 15px;
-
+	background-size: 50% auto;
+	background-position: 120% 15px;
 }
 
 
@@ -38,6 +37,7 @@ body{
 
 
 @import 'media_small_desk.scss';
+@import 'media1200.scss';
 @import 'media768.scss';
 @import 'media576.scss';
 @import 'media320.scss';
