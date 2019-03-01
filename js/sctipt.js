@@ -112,8 +112,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
         }
 
-
-
     }
 
     cakeOrder.setFilling();

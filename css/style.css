@@ -31,11 +31,10 @@ button:focus {
 
 a {
   text-decoration: none;
-  color: #2d2829;
 }
 
 A:visited {
-  color: #2d2829;
+  color: none;
 }
 
 @font-face {
@@ -662,6 +661,10 @@ A:visited {
   left: 94%;
 }
 
+.chooseBlock_Decor .itemBox_decor {
+  cursor: pointer;
+}
+
 .chooseBlock_Decor .itemBox__item .imageBox .decorImg {
   margin-left: auto;
   margin-right: auto;
@@ -1212,6 +1215,7 @@ footer {
 
 .footerMenu__item {
   font-family: "Myriad Pro Regular", serif;
+  color: #2d2829;
 }
 
 .footerMenu__item_Social {
