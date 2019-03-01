@@ -78,8 +78,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
             let btn = document.querySelectorAll('button.description__btn');            
             btn.forEach(function(btn, i){                
                 btn.addEventListener('click', ()=>{
-                    let title = document.querySelectorAll('.description__title')[i];
-                    cakeOrder.filling.value = title.textContent.trim();               
+                    const title = document.querySelectorAll('.description__title')[i];
+                    const filling = document.querySelectorAll('.filling_item');
+                    cakeOrder.filling.value = title.textContent.trim();
+                    cakeOrder.setAnimated(filling[i]);
                 });
 
             });            
@@ -90,7 +92,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
             function setEventSize(item, i){
                 item.addEventListener('click', ()=>{                                       
                     const sizeValue = document.querySelector('.choiceBlockItem__value_size');
-                    sizeValue.value = sizeTitle[i].textContent.trim();                    
+                    sizeValue.value = sizeTitle[i].textContent.trim();
+                    cakeOrder.setAnimated(item);
                 });
             }
             sizeItem.forEach(function(item, i){
@@ -105,12 +108,20 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 item.addEventListener('click', ()=>{
                     let decorValue = document.querySelector('.choiceBlockItem__value_decor');
                     const decorTitle = document.querySelectorAll('.decorText__name')[i];                    
-                    decorValue.value = decorTitle.textContent.trim();                                                      
+                    decorValue.value = decorTitle.textContent.trim();
+                    cakeOrder.setAnimated(item);                                                      
                 });                
             });
 
-
-        }
+        },
+        setAnimated: function(item){
+            item.classList.add('animated');
+                item.classList.add('fadeOutDown');
+                setTimeout(()=>{
+                    item.classList.remove('animated');
+                    item.classList.remove('fadeOutDown');
+            }, 1000);                   
+        } 
 
     }
 
