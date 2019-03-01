@@ -157,6 +157,7 @@ A:visited {
   align-self: flex-start;
   padding-left: 65px;
   padding-right: 65px;
+  cursor: pointer;
 }
 
 .btn_offer,
@@ -167,6 +168,8 @@ A:visited {
 
 .btn_size {
   display: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .my-dots {
@@ -472,6 +475,10 @@ A:visited {
   margin-bottom: 50px;
 }
 
+.fillingSlider .fillings .description__btn {
+  cursor: pointer;
+}
+
 .fillingSlider .fillings .count {
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -502,6 +509,10 @@ A:visited {
   height: 15px;
   z-index: 100;
   background: url("../img/slider/arrowRight.png") no-repeat center;
+}
+
+.sizeSlider .itemBox {
+  cursor: pointer;
 }
 
 .sizeSlider .itemBox__item {

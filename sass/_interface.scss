@@ -10,7 +10,8 @@
 	box-shadow: 0px 5px 7.04px 0.96px rgba(255, 0, 67, 0.3);
 	align-self: flex-start;
 	padding-left: 65px;
-	padding-right: 65px;
+  padding-right: 65px;
+  cursor: pointer;
 }
 
 .btn_offer, .btn_s{
@@ -20,7 +21,8 @@ box-shadow: none;
 
 
 .btn_size{
-	display: none;
+  display: none;
+  box-shadow: none;
 }
 
 
