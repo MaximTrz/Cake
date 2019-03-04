@@ -7,6 +7,9 @@
     &__phone{
         font-family: "Circe";
         color: rgb(45, 40, 41);
+        .phoneNumber{
+            color: rgb(45, 40, 41);
+        }
     }
     &Items{
         display: flex;

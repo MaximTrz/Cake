@@ -246,6 +246,10 @@ A:visited {
   background: url("../img/slider/arrowRight.png") no-repeat center;
 }
 
+.hide {
+  display: none;
+}
+
 .ourCake .title {
   font-size: 30px;
   margin-bottom: 70px;
@@ -343,9 +347,7 @@ A:visited {
 }
 
 .cake .view {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -ms-flex-item-align: stretch;
   align-self: stretch;
   -webkit-box-pack: end;
@@ -1265,6 +1267,10 @@ footer {
 
 .menu__phone {
   font-family: "Circe";
+  color: #2d2829;
+}
+
+.menu__phone .phoneNumber {
   color: #2d2829;
 }
 
