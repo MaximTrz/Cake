@@ -19,6 +19,9 @@
             text-transform: uppercase;
             font-family: "Circe";
             color: rgb(45, 40, 41);
+            &:hover{
+                color: #f50049;
+            }
         }
     }
 }

@@ -1288,6 +1288,10 @@ footer {
   color: #2d2829;
 }
 
+.menuItems__item:hover {
+  color: #f50049;
+}
+
 .logoBox {
   display: -webkit-box;
   display: -ms-flexbox;
