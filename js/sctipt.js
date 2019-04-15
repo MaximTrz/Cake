@@ -1,5 +1,5 @@
 
-window.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('load', ()=>{
     const menuButton = document.querySelectorAll('.buttonMenuBox'),
           menuItems = document.querySelector('.menuItems'),
           menuItem = document.querySelectorAll('.menuItems__item'),
